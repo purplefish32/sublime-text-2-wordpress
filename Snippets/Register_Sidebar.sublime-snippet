@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+register_sidebar(array(
+'name' => '${1:Sidebar 1}',
+'id' => '${2:sidebar-1}',
+'description' => '${3:}',
+'before_widget' => '${4:<li id="%1\$s" class="widget %2\$s">}',
+'after_widget' => "${5:</li>\n}",
+'before_title' => '${6:<h2 class="widgettitle">}',
+'after_title' => "${7:</h2>\n}"
+));
+
+$0
+]]></content>
+	<description>Register Sidebar</description>
+	<tabTrigger>registersidebar</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

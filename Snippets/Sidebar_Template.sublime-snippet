@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<?php // Dynamic Sidebar
+if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('${1:Sidebar Name}') ) : ?>
+
+${0:<!-- Sidebar fallback content -->}
+
+<?php endif; // End Dynamic Sidebar $1 ?>
+]]></content>
+	<description>Sidebar Template</description>
+	<tabTrigger>sidebar</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

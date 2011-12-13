@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+include(TEMPLATEPATH . '/$0');
+]]></content>
+	<description>Include Template File</description>
+	<tabTrigger>templatepath</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

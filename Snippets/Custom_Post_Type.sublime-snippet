@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+function ${1:registration_func_name}() {
+
+/**
+* Register a custom post type
+*
+* Supplied is a "reasonable" list of defaults
+* @see register_post_type for full list of options for register_post_type
+* @see add_post_type_support for full descriptions of 'supports' options
+* @see get_post_type_capabilities for full list of available fine grained capabilities that are supported
+*/
+register_post_type('${2:post_type}', array(
+${3:'labels' => array(
+'name' => __('${4:name}'${5:, '${6:localisation_domain}'}),
+'singular_name' => __('${7:singular-name}'$5)
+),}
+${8:'description' => __('${9:description}'$5),}
+${10:'public' => ${11:true},}
+${12:'exclude_from_search' => ${13:null},}
+${14:'publicly_queryable' => ${15:null},}
+${16:'show_ui' => ${17:true},}
+${18:'show_in_nav_menus' => ${19:null},}
+${20:'hierarchical' => ${21:false},}
+${22:'supports' => array(
+${23:'title',}
+${24:'editor',}
+${25:'comments',}
+${26:'revisions',}
+${27:'trackbacks',}
+${28:'author',}
+${29:'excerpt',}
+${30:'page-attributes',}
+${31:'thumbnail',}
+${32:'custom-fields'}
+),}
+${33:'taxonomies' => array(
+${34:'post_tag',}
+${35:'category',}
+),}
+${36:'capability_type' => '${37:post}',}
+${38:'capabilities' => array(
+// for fine grained control include valid capabilities here
+// if left empty 'capability_type' will define editing capability requirements
+),}
+));
+}
+add_action('init', '$1');
+]]></content>
+	<description>Custom Post Type: Register</description>
+	<tabTrigger>custom_post_type</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
