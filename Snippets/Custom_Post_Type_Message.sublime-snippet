@@ -5,7 +5,7 @@
  *
  * @see wp-admin/edit-form-advanced.php for \$messages format
  */
-function ${1:my_post_type_messages}($messages) {
+function ${1:my_post_type_messages}(\$messages) {
 \$messages['${2:custom-post-type-id}'] = array(
 1 => sprintf(__('${3:Post Type Name} updated. <a href="%s">View book</a>', '${4:my_plugin_text_domain}'), esc_url(get_permalink(\$post_ID))),
 2 => \$messages['post'][2],

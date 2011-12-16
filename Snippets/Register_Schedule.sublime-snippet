@@ -6,16 +6,16 @@
  * 'interval' - time in seconds between each time the schedule is run
  * 'display' - friendly description of the interval
  *
- * @param array $schedules
+ * @param array \$schedules
  * @return array
  */
-function ${1:register_my_schedule}($schedules) {
+function ${1:register_my_schedule}(\$schedules) {
 // remember, we're adding to the array, not replacing it
-$schedules['${2:string quarter_hour}'] = array(
+\$schedules['${2:string quarter_hour}'] = array(
 'interval' => ${3:900},
 'display' => _('${4:Every 15 Minutes}')
 );$0
-return $schedules;
+return \$schedules;
 }
 add_filter('cron_schedules', '$1');
 ]]></content>
