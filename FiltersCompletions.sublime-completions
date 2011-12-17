@@ -1,5 +1,5 @@
-{
-	"scope": "text.html - source - meta.tag, punctuation.definition.tag.begin",
+w{
+	"scope": "source.php - variable.other.php",
 
 	"completions":
 	[
