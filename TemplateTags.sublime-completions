@@ -1,0 +1,8 @@
+{
+	"scope": "source.php - variable.other.php",
+
+	"completions":
+	[
+		{ "trigger": "get_posts_default", "contents": "get_posts(${1:array(\n${2: 'numberposts'     => 5,}\n${3: 'offset'          => 0,}\n${4: 'category'        => ,}\n${5: 'orderby'         => 'post_date',}\n${6: 'order'           => 'DESC',}\n${7: 'include'         => ,}\n${8: 'exclude'         => ,}\n${9: 'meta_key'        => ,}\n${10: 'meta_value'      => ,}\n${11: 'post_type'       => 'post',}\n${12: 'post_mime_type'  => ,}\n${13: 'post_parent'     => ,}\n${14: 'post_status'     => 'publish' })})" }
+	]
+}

@@ -978,7 +978,6 @@
     { "trigger": "get_media_url", "contents": "get_media_url(${1:postID = null})" },
     { "trigger": "the_media_url", "contents": "the_media_url(${1:postID = null})" },
     { "trigger": "set_current_entry", "contents": "set_current_entry(${1:postID})" },
-    { "trigger": "get_posts", "contents": "get_posts(${1:args = null})" },
     { "trigger": "get_attachments", "contents": "get_attachments(${1:page = 1}, ${2:post_type = 'attachment'})" },
     { "trigger": "get_feed", "contents": "get_feed(${1:page = 1}, ${2:post_type = 'post'})" },
     { "trigger": "get_entry", "contents": "get_entry(${1:postID}, ${2:post_type = 'post'})" },
