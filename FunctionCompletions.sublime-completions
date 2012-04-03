@@ -915,7 +915,6 @@
     { "trigger": "cleanup", "contents": "cleanup()" },
     { "trigger": "			if ", "contents": "			if (${1:get_current_user_id() == user_object->ID})" },
     { "trigger": "display_header", "contents": "display_header()" },
-    { "trigger": "get_bloginfo", "contents": "get_bloginfo(${1:show = ''}, ${2:filter = 'raw'})" },
     { "trigger": "admin_created_user_email", "contents": "admin_created_user_email(${1:text})" },
     { "trigger": "admin_created_user_subject", "contents": "admin_created_user_subject(${1:text})" },
     { "trigger": "use_ssl_preference", "contents": "use_ssl_preference(${1:user})" },
@@ -1804,7 +1803,7 @@
     { "trigger": "localize", "contents": "localize(${1:handle}, ${2:object_name}, ${3:l10n})" },
     {"trigger": "register_nav_menus", "contents": "register_nav_menus(array(${1:}))"},
     {"trigger": "add_image_size", "contents": "add_image_size('${1:size-name}', ${2:50}, ${3:50}${4:, ${5:true}})"}
-   
+
 
   ]
 }
