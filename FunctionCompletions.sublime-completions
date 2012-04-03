@@ -1768,7 +1768,6 @@
     { "trigger": "wp_http_supports", "contents": "wp_http_supports(${1:capabilities = array()}, ${2:url = null})" },
     { "trigger": "the_ID", "contents": "the_ID()" },
     { "trigger": "get_the_ID", "contents": "get_the_ID()" },
-    { "trigger": "the_title", "contents": "the_title(${1:before = ''}, ${2:after = ''}, ${3:echo = true})" },
     { "trigger": "the_title_attribute", "contents": "the_title_attribute(${1:args = ''})" },
     { "trigger": "get_the_title", "contents": "get_the_title(${1:id = 0})" },
     { "trigger": "the_guid", "contents": "the_guid(${1:id = 0})" },

@@ -11,6 +11,7 @@
 		{"trigger": "wp_nav_menu", "contents": "wp_nav_menu(array())"},
 		{ "trigger": "the_post", "contents": "the_post()" },
 
-		{ "trigger": "the_permalink", "contents": "the_permalink()" }
+		{ "trigger": "the_permalink", "contents": "the_permalink()" },
+		{ "trigger": "the_title", "contents": "the_title(${1:'${2:before}'${3:, '${4:after}'${5:, ${3:true}}}})" }
 	]
 }
