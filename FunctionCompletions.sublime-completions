@@ -1668,7 +1668,6 @@
     { "trigger": "get_lines", "contents": "get_lines()" },
     { "trigger": "has_post_thumbnail", "contents": "has_post_thumbnail(${1:post_id = null})" },
     { "trigger": "get_post_thumbnail_id", "contents": "get_post_thumbnail_id(${1:post_id = null})" },
-    { "trigger": "the_post_thumbnail", "contents": "the_post_thumbnail(${1:size = 'post-thumbnail'}, ${2:attr = ''})" },
     { "trigger": "update_post_thumbnail_cache", "contents": "update_post_thumbnail_cache()" },
     { "trigger": "get_the_post_thumbnail", "contents": "get_the_post_thumbnail(${1:post_id = null}, ${2:size = 'post-thumbnail'}, ${3:attr = ''})" },
     { "trigger": "check_comment", "contents": "check_comment(${1:author}, ${2:email}, ${3:url}, ${4:comment}, ${5:user_ip}, ${6:user_agent}, ${7:comment_type})" },
