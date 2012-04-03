@@ -1348,7 +1348,6 @@
     { "trigger": "have_posts", "contents": "have_posts()" },
     { "trigger": "in_the_loop", "contents": "in_the_loop()" },
     { "trigger": "rewind_posts", "contents": "rewind_posts()" },
-    { "trigger": "the_post", "contents": "the_post()" },
     { "trigger": "have_comments", "contents": "have_comments()" },
     { "trigger": "the_comment", "contents": "the_comment()" },
     { "trigger": "init_query_flags", "contents": "init_query_flags()" },
