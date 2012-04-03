@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+add_shortcode('${1:tag}', '${2:function_name}');
+function $2(){
+
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>add_shortcode</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php - variable.other.php</scope>
+	<description>add_shortcode with function definition</description>
+</snippet>
