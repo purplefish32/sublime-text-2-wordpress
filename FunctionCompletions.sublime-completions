@@ -1312,7 +1312,7 @@
     { "trigger": "wp_set_password", "contents": "wp_set_password(${1:password}, ${2:user_id})" },
     { "trigger": "get_avatar", "contents": "get_avatar(${1:id_or_email}, ${2:size = '96'}, ${3:default = ''}, ${4:alt = false})" },
     { "trigger": "wp_text_diff", "contents": "wp_text_diff(${1:left_string}, ${2:right_string}, ${3:args = null})" },
-    { "trigger": "get_query_var", "contents": "get_query_var(${1:var})" },
+    { "trigger": "get_query_var", "contents": "get_query_var('${1:var}')" },
     { "trigger": "get_queried_object", "contents": "get_queried_object()" },
     { "trigger": "get_queried_object_id", "contents": "get_queried_object_id()" },
     { "trigger": "set_query_var", "contents": "set_query_var(${1:key}, ${2:value})" },
