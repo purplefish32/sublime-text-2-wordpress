@@ -7,7 +7,7 @@
 		{"trigger": "wp_title", "contents": "wp_title(${1:'${2:&raquo;}'${3:, ${4:true}${5:, '${6:left}'}}})", "description": "Template Tag"},
 		{"trigger": "wp_head", "contents": "wp_head()"},
 		{"trigger": "wp_footer", "contents": "wp_footer()"},
-		// @todo: add array options to wp_nav_menu
+		// @todo: add snippet for wp_nav_menu
 		{"trigger": "wp_nav_menu", "contents": "wp_nav_menu(array())"}
 	]
 }

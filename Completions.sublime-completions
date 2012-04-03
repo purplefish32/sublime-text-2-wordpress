@@ -1759,7 +1759,6 @@
 		"register_handler",
 		"register_importer",
 		"register_nav_menu",
-		"register_nav_menus",
 		"register_new_user",
 		"register_post_status",
 		"register_post_type",

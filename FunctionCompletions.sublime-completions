@@ -1806,7 +1806,8 @@
     { "trigger": "print_scripts", "contents": "print_scripts(${1:handles = false}, ${2:group = false})" },
     { "trigger": "print_scripts_l10n", "contents": "print_scripts_l10n(${1:handle}, ${2:echo = true})" },
     { "trigger": "print_extra_script", "contents": "print_extra_script(${1:handle}, ${2:echo = true})" },
-    { "trigger": "localize", "contents": "localize(${1:handle}, ${2:object_name}, ${3:l10n})" }
+    { "trigger": "localize", "contents": "localize(${1:handle}, ${2:object_name}, ${3:l10n})" },
+    {"trigger": "register_nav_menus", "contents": "register_nav_menus(array(${1:}))"}
    
 
   ]
