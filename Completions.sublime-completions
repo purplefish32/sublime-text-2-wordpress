@@ -2398,7 +2398,6 @@
 		"wp_find_hierarchy_loop",
 		"wp_find_hierarchy_loop_tortoise_hare",
 		"wp_fix_server_vars",
-		"wp_footer",
 		"wp_functionality_constants",
 		"wp_generate_attachment_metadata",
 		"wp_generate_auth_cookie",
