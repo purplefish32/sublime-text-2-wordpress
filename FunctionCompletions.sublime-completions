@@ -1036,7 +1036,6 @@
     { "trigger": "shortcode_atts", "contents": "shortcode_atts(${1:pairs}, ${2:atts})" },
     { "trigger": "strip_shortcodes", "contents": "strip_shortcodes(${1:content})" },
     { "trigger": "strip_shortcode_tag", "contents": "strip_shortcode_tag(${1:m})" },
-    { "trigger": "the_permalink", "contents": "the_permalink()" },
     { "trigger": "user_trailingslashit", "contents": "user_trailingslashit(${1:string}, ${2:type_of_url = ''})" },
     { "trigger": "permalink_anchor", "contents": "permalink_anchor(${1:mode = 'id'})" },
     { "trigger": "get_permalink", "contents": "get_permalink(${1:id = 0}, ${2:leavename = false})" },

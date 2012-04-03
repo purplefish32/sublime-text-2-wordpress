@@ -9,6 +9,8 @@
 		{"trigger": "wp_footer", "contents": "wp_footer()"},
 		// @todo: add snippet for wp_nav_menu
 		{"trigger": "wp_nav_menu", "contents": "wp_nav_menu(array())"},
-    	{ "trigger": "the_post", "contents": "the_post()" },
+		{ "trigger": "the_post", "contents": "the_post()" },
+
+		{ "trigger": "the_permalink", "contents": "the_permalink()" }
 	]
 }
