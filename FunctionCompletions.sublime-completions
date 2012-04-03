@@ -1802,7 +1802,8 @@
     { "trigger": "print_scripts_l10n", "contents": "print_scripts_l10n(${1:handle}, ${2:echo = true})" },
     { "trigger": "print_extra_script", "contents": "print_extra_script(${1:handle}, ${2:echo = true})" },
     { "trigger": "localize", "contents": "localize(${1:handle}, ${2:object_name}, ${3:l10n})" },
-    {"trigger": "register_nav_menus", "contents": "register_nav_menus(array(${1:}))"}
+    {"trigger": "register_nav_menus", "contents": "register_nav_menus(array(${1:}))"},
+    {"trigger": "add_image_size", "contents": "add_image_size('${1:size-name}', ${2:50}, ${3:50}${4:, ${5:true}})"}
    
 
   ]

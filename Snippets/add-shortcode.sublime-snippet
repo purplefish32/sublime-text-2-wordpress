@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 add_shortcode('${1:tag}', '${2:function_name}');
-function $2(){
+function $2($atts = array(), $content = null, $tag = null){
 
 }
 ]]></content>
