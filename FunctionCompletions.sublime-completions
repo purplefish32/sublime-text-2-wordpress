@@ -1102,7 +1102,7 @@
     { "trigger": "previous_comments_link", "contents": "previous_comments_link(${1:label = ''})" },
     { "trigger": "paginate_comments_links", "contents": "paginate_comments_links(${1:args = array()})" },
     { "trigger": "get_shortcut_link", "contents": "get_shortcut_link()" },
-    { "trigger": "home_url", "contents": "home_url(${1:path = ''}, ${2:scheme = null})" },
+    { "trigger": "home_url", "contents": "home_url(${1:'${2:path}'${3:, ${4:null}}})" },
     { "trigger": "get_home_url", "contents": "get_home_url(${1:blog_id = null}, ${2:path = ''}, ${3:scheme = null})" },
     { "trigger": "site_url", "contents": "site_url(${1:path = ''}, ${2:scheme = null})" },
     { "trigger": "get_site_url", "contents": "get_site_url(${1:blog_id = null}, ${2:path = ''}, ${3:scheme = null})" },
