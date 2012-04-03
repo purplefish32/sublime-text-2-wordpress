@@ -1771,7 +1771,6 @@
     { "trigger": "get_the_title", "contents": "get_the_title(${1:id = 0})" },
     { "trigger": "the_guid", "contents": "the_guid(${1:id = 0})" },
     { "trigger": "get_the_guid", "contents": "get_the_guid(${1:id = 0})" },
-    { "trigger": "the_content", "contents": "the_content(${1:more_link_text = null}, ${2:stripteaser = false})" },
     { "trigger": "get_the_content", "contents": "get_the_content(${1:more_link_text = null}, ${2:stripteaser = false})" },
     { "trigger": "_convert_urlencoded_to_entities", "contents": "_convert_urlencoded_to_entities(${1:match})" },
     { "trigger": "the_excerpt", "contents": "the_excerpt()" },
