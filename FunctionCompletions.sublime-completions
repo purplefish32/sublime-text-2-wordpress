@@ -1026,7 +1026,7 @@
     { "trigger": "footag_func", "contents": "footag_func(${1:atts})" },
     { "trigger": "bartag_func", "contents": "bartag_func(${1:atts})" },
     { "trigger": "baztag_func", "contents": "baztag_func(${1:atts}, ${2:content=''})" },
-    { "trigger": "add_shortcode", "contents": "add_shortcode(${1:tag}, ${2:func})" },
+    { "trigger": "add_shortcode", "contents": "add_shortcode('${1:tag}', '${2:func}')" },
     { "trigger": "remove_shortcode", "contents": "remove_shortcode(${1:tag})" },
     { "trigger": "remove_all_shortcodes", "contents": "remove_all_shortcodes()" },
     { "trigger": "do_shortcode", "contents": "do_shortcode(${1:content})" },
