@@ -245,7 +245,6 @@
 		"add_strings",
 		"add_submenu_page",
 		"add_theme_page",
-		"add_theme_support",
 		"add_thickbox",
 		"add_user",
 		"add_user_meta",

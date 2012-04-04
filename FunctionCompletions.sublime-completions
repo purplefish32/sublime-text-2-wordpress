@@ -1197,7 +1197,7 @@
     { "trigger": "_custom_background_cb", "contents": "_custom_background_cb()" },
     { "trigger": "add_editor_style", "contents": "add_editor_style(${1:stylesheet = 'editor-style.css'})" },
     { "trigger": "remove_editor_styles", "contents": "remove_editor_styles()" },
-    { "trigger": "add_theme_support", "contents": "add_theme_support(${1:feature})" },
+    { "trigger": "add_theme_support", "contents": "add_theme_support('${1:feature}')" },
     { "trigger": "get_theme_support", "contents": "get_theme_support(${1:feature})" },
     { "trigger": "remove_theme_support", "contents": "remove_theme_support(${1:feature})" },
     { "trigger": "_remove_theme_support", "contents": "_remove_theme_support(${1:feature})" },
