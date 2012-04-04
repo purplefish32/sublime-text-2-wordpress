@@ -16,6 +16,7 @@
 		{ "trigger": "the_post_thumbnail", "contents": "the_post_thumbnail('${1:thumbnail}'${2:, ${3:array()}})" },
 		{ "trigger": "the_content", "contents": "the_content(${1:${2:null}${3:, ${4:false}}})" },
 		{ "trigger": "get_bloginfo", "contents": "get_bloginfo('${1:show}'${2:, '${3:raw}'})" },
-		{ "trigger": "bloginfo", "contents": "bloginfo('${1:show}'')" }
+		{ "trigger": "bloginfo", "contents": "bloginfo('${1:show}'')" },
+		{ "trigger": "get_the_ID", "contents": "get_the_ID()" }
 	]
 }
