@@ -1610,7 +1610,7 @@
     { "trigger": "wp_delete_category", "contents": "wp_delete_category(${1:cat_ID})" },
     { "trigger": "wp_get_object_terms", "contents": "wp_get_object_terms(${1:object_ids}, ${2:taxonomies}, ${3:args = array()})" },
     { "trigger": "wp_insert_term", "contents": "wp_insert_term(${1:term}, ${2:taxonomy}, ${3:args = array()})" },
-    { "trigger": "wp_set_object_terms", "contents": "wp_set_object_terms(${1:object_id}, ${2:terms}, ${3:taxonomy}, ${4:append = false})" },
+    { "trigger": "wp_set_object_terms", "contents": "wp_set_object_terms(${1:object_id}, ${2:terms}, '${3:taxonomy}', ${4:false})" },
     { "trigger": "wp_unique_term_slug", "contents": "wp_unique_term_slug(${1:slug}, ${2:term})" },
     { "trigger": "wp_update_term", "contents": "wp_update_term(${1:term_id}, ${2:taxonomy}, ${3:args = array()})" },
     { "trigger": "wp_defer_term_counting", "contents": "wp_defer_term_counting(${1:defer=null})" },

@@ -2645,7 +2645,6 @@
 		"wp_set_internal_encoding",
 		"wp_set_lang_dir",
 		"wp_set_link_cats",
-		"wp_set_object_terms",
 		"wp_set_password",
 		"wp_set_post_categories",
 		"wp_set_post_cats",
