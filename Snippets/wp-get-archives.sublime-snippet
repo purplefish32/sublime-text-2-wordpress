@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+wp_get_archives(array(
+	${1:'type' => '${2:yearly/monthly/daily/weekly/postbypost/alpha}',}
+	${3:'limit' => ${4:-1},}
+	${5:'format' => '${6:html/option/link/custom}',}
+	${7:'before' => '${8:}',}
+	${9:'after' => '${10:}',}
+	${11:'show_post_count' => ${12:false},}
+	${13:'echo' => ${14:true},}
+));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_get_archives</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php - variable.other.php</scope>
+	<description>wp_get_archives with args</description>
+</snippet>

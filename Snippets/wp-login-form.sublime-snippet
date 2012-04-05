@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+wp_login_form(array(
+	${1:'echo' => ${2:true},}
+	${3:'redirect' => ${4:site_url( $_SERVER['REQUEST_URI'] )},}
+	${5:'form_id' => '${6:loginform}',}
+	${7:'label_username' => __('${8:Username}'),}
+	${9:'label_password' => __('${10:Password}'),}
+	${11:'label_remember' => __('${12:Remember Me}'),}
+	${13:'label_log_in' => __('${14:Log In}'),}
+	${15:'id_username' => '${16:user_login}',}
+	${17:'id_password' => '${18:user_pass}',}
+	${19:'id_remember' => '${20:rememberme}',}
+	${21:'id_submit' => '${22:wp-submit}',}
+	${23:'remember' => ${24:true},}
+	${25:'value_username' => ${26:null},}
+	${27:'value_remember' => ${28:false},}
+))
+]]></content>
+	<tabTrigger>wp_login_form</tabTrigger>
+	<scope>source.php - variable.other.php</scope>
+	<description>wp_login_form args</description>
+</snippet>

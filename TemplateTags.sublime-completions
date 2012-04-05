@@ -3,8 +3,7 @@
 
 	"completions":
 	[
-		{ "trigger": "get_posts_default", "contents": "get_posts(${1:array(\n${2: 'numberposts'     => 5,}\n${3: 'offset'          => 0,}\n${4: 'category'        => ,}\n${5: 'orderby'         => 'post_date',}\n${6: 'order'           => 'DESC',}\n${7: 'include'         => ,}\n${8: 'exclude'         => ,}\n${9: 'meta_key'        => ,}\n${10: 'meta_value'      => ,}\n${11: 'post_type'       => 'post',}\n${12: 'post_mime_type'  => ,}\n${13: 'post_parent'     => ,}\n${14: 'post_status'     => 'publish' })})" },
-		{"trigger": "wp_title", "contents": "wp_title(${1:'${2:&raquo;}'${3:, ${4:true}${5:, '${6:left}'}}})", "description": "Template Tag"},
+
 		{"trigger": "wp_head", "contents": "wp_head()"},
 		{"trigger": "wp_footer", "contents": "wp_footer()"},
 		// @todo: add snippet for wp_nav_menu
@@ -15,8 +14,35 @@
 		{ "trigger": "the_title", "contents": "the_title(${1:'${2:before}'${3:, '${4:after}'${5:, ${6:true}}}})" },
 		{ "trigger": "the_post_thumbnail", "contents": "the_post_thumbnail('${1:thumbnail}'${2:, ${3:array()}})" },
 		{ "trigger": "the_content", "contents": "the_content(${1:${2:null}${3:, ${4:false}}})" },
-		{ "trigger": "get_bloginfo", "contents": "get_bloginfo('${1:show}'${2:, '${3:raw}'})" },
+
+
+		{ "trigger": "get_the_ID", "contents": "get_the_ID()" },
+
+		// start of new items order like http://codex.wordpress.org/Template_Tags
+		// { "trigger": "", "contents": ""}
+		{ "trigger": "get_header", "contents": "get_header(${1:null})" },
+		{ "trigger": "get_footer", "contents": "get_footer(${1:null})" },
+		{ "trigger": "get_sidebar", "contents": "get_sidebar(${1:null})" },
+		{ "trigger": "get_template_part", "contents": "get_template_part('${1:slug}'${2:, '${3:name}'})"},
+		{ "trigger": "get_search_form", "contents": "get_search_form(${1:true})"},
+		{ "trigger": "wp_loginout", "contents": "wp_loginout(${1:'${2:/}'${3:, ${4:true}}})"},
+		{ "trigger": "wp_logout_url", "contents": "wp_logout_url('${1:/}')" },
+		{ "trigger": "wp_login_url", "contents": "wp_login_url('${1:/}')" },
+		{ "trigger": "wp_login_form", "contents": "wp_login_form(array(${1}))" },
+		{ "trigger": "wp_lostpassword_url", "contents": "wp_lostpassword_url('${1:/}')" },
+		{ "trigger": "wp_register", "contents": "wp_register(${1:'${2:<li>}'${3:, '${4:</li>}'${5:, ${6:true}}}})" },
+		{ "trigger": "wp_meta", "contents": "wp_meta()" },
 		{ "trigger": "bloginfo", "contents": "bloginfo('${1:show}'')" },
-		{ "trigger": "get_the_ID", "contents": "get_the_ID()" }
+		{ "trigger": "get_bloginfo", "contents": "get_bloginfo('${1:show}'${2:, '${3:raw}'})" },
+		{ "trigger": "get_current_blog_id", "contents": "get_current_blog_id()" },
+		{"trigger": "wp_title", "contents": "wp_title(${1:'${2:&raquo;}'${3:, ${4:true}${5:, '${6:left}'}}})"},
+		{ "trigger": "single_post_title", "contents": "single_post_title(${1:'${2:prefix}'${3:, ${4:true}}})" },
+		{ "trigger": "post_type_archive_title", "contents": "post_type_archive_title(${1:'${2:prefix}'${3:, ${4:true}}})" },
+		{ "trigger": "single_cat_title", "contents": "single_cat_title(${1:'${2:prefix}'${3:, ${4:true}}})" },
+		{ "trigger": "single_tag_title", "contents": "single_tag_title(${1:'${2:prefix}'${3:, ${4:true}}})" },
+		{ "trigger": "single_term_title", "contents": "single_term_title(${1:'${2:prefix}'${3:, ${4:true}}})" },
+		{ "trigger": "single_month_title", "contents": "single_month_title(${1:'${2:prefix}'${3:, ${4:true}}})" },
+		{ "trigger": "get_archives_link", "contents": "get_archives_link('${1:url}', '${2:text}'${3:, '${4:html/link/option}'${5:, '${6:before}'${7:, '${8:after}'}}})" },
+		{ "trigger": "wp_get_archives", "contents": "wp_get_archives(array(${1}))" }
 	]
 }

@@ -1235,7 +1235,7 @@
     { "trigger": "add_entry_or_merge", "contents": "add_entry_or_merge(${1:entry})" },
     { "trigger": "set_header", "contents": "set_header(${1:header}, ${2:value})" },
     { "trigger": "set_headers", "contents": "set_headers(${1:&headers})" },
-    { "trigger": "get_header", "contents": "get_header(${1:name = null})" },
+
     { "trigger": "translate_entry", "contents": "translate_entry(${1:&entry})" },
     { "trigger": "translate", "contents": "translate(${1:text}, ${2:domain = 'default'})" },
     { "trigger": "translate_plural", "contents": "translate_plural(${1:singular}, ${2:plural}, ${3:count}, ${4:context = null})" },
