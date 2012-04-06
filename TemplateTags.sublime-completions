@@ -42,6 +42,9 @@
 		{ "trigger": "single_term_title", "contents": "single_term_title(${1:'${2:prefix}'${3:, ${4:true}}})" },
 		{ "trigger": "single_month_title", "contents": "single_month_title(${1:'${2:prefix}'${3:, ${4:true}}})" },
 		{ "trigger": "get_archives_link", "contents": "get_archives_link('${1:url}', '${2:text}'${3:, '${4:html/link/option}'${5:, '${6:before}'${7:, '${8:after}'}}})" },
-		{ "trigger": "wp_get_archives", "contents": "wp_get_archives(array(${1}))" }
+		{ "trigger": "wp_get_archives", "contents": "wp_get_archives(array(${1}))" },
+		{"trigger": "calendar_week_mod", "contents": "calendar_week_mod(${1:\\$num})" },
+		{"trigger": "get_calendar", "contents": "get_calendar(${1:\\$initial = true},${2:\\$echo = true})" },
+		{"trigger": "delete_get_calendar_cache", "contents": "delete_get_calendar_cache()" }
 	]
 }
