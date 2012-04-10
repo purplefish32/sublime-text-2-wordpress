@@ -63,7 +63,7 @@
 	{"trigger": "the_author_posts", "contents": "the_author_posts()" },
 	{"trigger": "the_author_posts_link", "contents": "the_author_posts_link(${1:\\$deprecated = ''})" },
 	{"trigger": "get_author_posts_url", "contents": "get_author_posts_url(${1:\\$author_id}${2:, \\$author_nicename = ''})" },
-	{"trigger": "wp_list_authors", "contents": "wp_list_authors(${1:\\$args = ''})" },
+	{"trigger": "wp_list_authors", "contents": "wp_list_authors(${1: array(\n${2:	'orderby'       => 'name',}\n${3:	'order'         => 'ASC',}\n${4:	'number'        => null,}\n${5:	'optioncount'   => false,}\n${6:	'exclude_admin' => true,}\n${7:	'show_fullname' => false,}\n${8:	'hide_empty'    => true,}\n${9:	'echo'          => true,}\n${10:	'feed'          => [empty string],}\n${11:	'feed_image'    => [empty string],}\n${12:	'feed_type'     => [empty string],}\n${13:	'style'         => list,}\n${14:	'html'          => true )}\n)"	},
 	{"trigger": "is_multi_author", "contents": "is_multi_author()" },
 	{"trigger": "__clear_multi_author_cache", "contents": "__clear_multi_author_cache()" },
 	{"trigger": "_walk_bookmarks", "contents": "_walk_bookmarks(${1:\\$bookmarks}${2:, \\$args = ''})" },
