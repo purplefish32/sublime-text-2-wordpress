@@ -1261,7 +1261,7 @@
 	{"trigger": "get_all_post_type_supports", "contents": "get_all_post_type_supports(${1:\\$post_type})" },
 	{"trigger": "post_type_supports", "contents": "post_type_supports(${1:\\$post_type}${2:, \\$feature})" },
 	{"trigger": "set_post_type", "contents": "set_post_type(${1:\\$post_id = 0}${2:, \\$post_type = 'post'})" },
-	{"trigger": "get_posts", "contents": "get_posts(${1:\\$args = null})" },
+	{"trigger": "get_posts", "contents": "get_posts(${1: array(\n${2:	'numberposts'		=>	5,}\n${3:	'offset'			=>	0,}\n${4:	'category'			=>	,}\n${5:	'orderby'			=>	'post_date',}\n${6:	'order'				=>	'DESC',}\n${7:	'include'			=>	,}\n${8:	'exclude'			=>	,}\n${9:	'meta_key'			=>	,}\n${10:	'meta_value'		=>	,}\n${11:	'post_type'			=>	'post',}\n${12:	'post_mime_type'	=>	,}\n${13:	'post_parent'		=>	,}\n${14:	'post_status'		=>	'publish'})}\n)"	},
 	{"trigger": "add_post_meta", "contents": "add_post_meta(${1:\\$post_id}${2:, \\$meta_key}${3:, \\$meta_value}${4:, \\$unique = false})" },
 	{"trigger": "delete_post_meta", "contents": "delete_post_meta(${1:\\$post_id}${2:, \\$meta_key}${3:, \\$meta_value = ''})" },
 	{"trigger": "get_post_meta", "contents": "get_post_meta(${1:\\$post_id}${2:, \\$key = ''}${3:, \\$single = false})" },
