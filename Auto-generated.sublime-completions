@@ -312,7 +312,7 @@
 	{"trigger": "list_cats", "contents": "list_cats(${1:\\$optionall = 1}${2:, \\$all = 'All'}${3:, \\$sort_column = 'ID'}${4:, \\$sort_order = 'asc'}${5:, \\$file = ''}${6:, \\$list = true}${7:, \\$optiondates = 0}${8:, \\$optioncount = 0}${9:, \\$hide_empty = 1}${10:, \\$use_desc_for_title = 1}${11:, \\$children=false}${12:, \\$child_of=0}${13:, \\$categories=0}${14:, \\$recurse=0}${15:, \\$feed = ''}${16:, \\$feed_image = ''}${17:, \\$exclude = ''}${18:, \\$hierarchical=false})" },
 	{"trigger": "wp_list_cats", "contents": "wp_list_cats(${1:\\$args = ''})" },
 	{"trigger": "dropdown_cats", "contents": "dropdown_cats(${1:\\$optionall = 1}${2:, \\$all = 'All'}${3:, \\$orderby = 'ID'}${4:, \\$order = 'asc'}${5:, \\$show_last_update = 0}${6:, \\$show_count = 0}${7:, \\$hide_empty = 1}${8:, \\$optionnone = false}${9:, \\$selected = 0}${10:, \\$exclude = 0})" },
-	{"trigger": "list_authors", "contents": "list_authors(${1:\\$optioncount = false}${2:, \\$exclude_admin = true}${3:, \\$show_fullname = false}${4:, \\$hide_empty = true}${5:, \\$feed = ''}${6:, \\$feed_image = ''})" },
+	{"trigger": "list_authors", "contents": "list_authors(${1:\\$deprecated = ''})" },
 	{"trigger": "wp_get_post_cats", "contents": "wp_get_post_cats(${1:\\$blogid = '1'}${2:, \\$post_ID = 0})" },
 	{"trigger": "wp_set_post_cats", "contents": "wp_set_post_cats(${1:\\$blogid = '1'}${2:, \\$post_ID = 0}${3:, \\$post_categories = array})" },
 	{"trigger": "get_archives", "contents": "get_archives(${1:\\$type=''}${2:, \\$limit=''}${3:, \\$format='html'}${4:, \\$before = ''}${5:, \\$after = ''}${6:, \\$show_post_count = false})" },
