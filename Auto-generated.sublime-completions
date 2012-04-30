@@ -70,7 +70,7 @@
 	{"trigger": "wp_list_bookmarks", "contents": "wp_list_bookmarks(${1:\\$args = ''})" },
 	{"trigger": "get_bookmark", "contents": "get_bookmark(${1:\\$bookmark}${2:, \\$output = OBJECT}${3:, \\$filter = 'raw'})" },
 	{"trigger": "get_bookmark_field", "contents": "get_bookmark_field(${1:\\$field}${2:, \\$bookmark}${3:, \\$context = 'display'})" },
-	{"trigger": "get_bookmarks", "contents": "get_bookmarks(${1:\\$args = ''})" },
+	{"trigger": "get_bookmarks", "contents": "get_bookmarks(${1:array(\n${2	'orderby'        => 'name', }\n${3	'order'          => 'ASC',}\n${4	'limit'          => -1, }\n${5	'category'       => ,}\n${6	'category_name'  => , }\n${7	'hide_invisible' => 1,}\n${8	'show_updated'   => 0, }\n${9	'include'        => ,}\n${10	'exclude'        => ,}\n${11	'search'         =>  })}\n)" },
 	{"trigger": "sanitize_bookmark", "contents": "sanitize_bookmark(${1:\\$bookmark}${2:, \\$context = 'display'})" },
 	{"trigger": "sanitize_bookmark_field", "contents": "sanitize_bookmark_field(${1:\\$field}${2:, \\$value}${3:, \\$bookmark_id}${4:, \\$context})" },
 	{"trigger": "clean_bookmark_cache", "contents": "clean_bookmark_cache(${1:\\$bookmark_id})" },
