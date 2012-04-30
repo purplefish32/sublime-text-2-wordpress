@@ -1067,7 +1067,7 @@
 	{"trigger": "get_current_site_name", "contents": "get_current_site_name(${1:\\$current_site})" },
 	{"trigger": "wpmu_current_site", "contents": "wpmu_current_site()" },
 	{"trigger": "ms_not_installed", "contents": "ms_not_installed()" },
-	{"trigger": "wp_nav_menu", "contents": "wp_nav_menu(${1:\\$args = array})" },
+	{"trigger": "wp_nav_menu", "contents": "wp_nav_menu(${1:array(\n${2:	'theme_location'  => ,}\n${3:	'menu'            => , }\n${4:	'container'       => 'div', }\n${5:	'container_class' => 'menu-\\{menu slug\\}-container', }\n${6:	'container_id'    => ,}\n${7:	'menu_class'      => 'menu', }\n${8:	'menu_id'         => ,}\n${9:	'echo'            => true,}\n${10:	'fallback_cb'     => 'wp_page_menu',}\n${11:	'before'          => ,}\n${12:	'after'           => ,}\n${13:	'link_before'     => ,}\n${14:	'link_after'      => ,}\n${15:	'items_wrap'      => '<ul id=\"%1\\$s\" class=\"%2\\$s\">%3\\$s</ul>',}\n${16:	'depth'           => 0,}\n${17:	'walker'          => })})" },
 	{"trigger": "_wp_menu_item_classes_by_context", "contents": "_wp_menu_item_classes_by_context(${1:&\\$menu_items})" },
 	{"trigger": "walk_nav_menu_tree", "contents": "walk_nav_menu_tree(${1:\\$items}${2:, \\$depth}${3:, \\$r})" },
 	{"trigger": "_nav_menu_item_id_use_once", "contents": "_nav_menu_item_id_use_once(${1:\\$id}${2:, \\$item})" },
