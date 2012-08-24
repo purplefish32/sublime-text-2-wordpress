@@ -83,7 +83,7 @@ define('WPLANG', '${12}');
  * to be defined. The valued defined is the address where your WordPress core files reside.
  * It should include the http:// part too. Do not put a slash "/" at the end. Setting this
  * value in wp-config.php overrides the wp_options table value for siteurl and disables the
- * WordPress address (URL) field in the Administration &gt; Settings &gt; General panel.
+ * WordPress address (URL) field in the Administration > Settings > General panel.
  */
 // define('WP_SITEURL', 'http://' . \$_SERVER['SERVER_NAME'] . '/path/to/wordpressp');
 
