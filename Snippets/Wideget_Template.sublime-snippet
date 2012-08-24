@@ -13,8 +13,8 @@ class ${1:PREFIX_Name}_Widget extends WP_Widget {
      * @return void
      **/
 function $1_Widget() {
-\$widget_ops = array( 'classname' =&gt; '${2:CSS class name}', 'description' =&gt; '${3:Description}' );
-\$this-&gt;WP_Widget( '$2', '${4:Title}', \$widget_ops );
+\$widget_ops = array( 'classname' => '${2:CSS class name}', 'description' => '${3:Description}' );
+\$this->WP_Widget( '$2', '${4:Title}', \$widget_ops );
 }
 
     /**
@@ -59,11 +59,11 @@ return \$updated_instance;
      * @return void Echoes it's output
      **/
 function form( \$instance ) {
-\$instance = wp_parse_args( (array) \$instance, array( ${5:array of option_name =&gt; value pairs} ) );
+\$instance = wp_parse_args( (array) \$instance, array( ${5:array of option_name => value pairs} ) );
 
 // display field names here using:
-// \$this-&gt;get_field_id('option_name') - the CSS ID
-// \$this-&gt;get_field_name('option_name') - the HTML name
+// \$this->get_field_id('option_name') - the CSS ID
+// \$this->get_field_name('option_name') - the HTML name
 // \$instance['option_name'] - the option value
 }
 }
