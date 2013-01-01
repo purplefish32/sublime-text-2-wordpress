@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-wp_clear_scheduled_hook('${1:recurring_event_action}');
+wp_clear_scheduled_hook( '${1:recurring_event_action}' );
 ]]></content>
 	<description>Clear Scheduled Event</description>
 	<tabTrigger>clear_event</tabTrigger>

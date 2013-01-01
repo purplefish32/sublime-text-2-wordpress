@@ -6,7 +6,7 @@
 
 <div class="entry-content">
 <?php
-the_content(__('Continued&amp;hellip;'));
+the_content( __( 'Continued&amp;hellip;' ) );
 wp_link_pages();
 ?>
 </div>
@@ -19,9 +19,9 @@ wp_link_pages();
 <span class="n"><?php the_author(); ?></span>
 </address>
 
-<abbr class="published" title="<?php the_time('Y-m-d\TH:i'); ?>"><?php the_date(); ?> @ <?php the_time(); ?></abbr>
+<abbr class="published" title="<?php the_time( 'Y-m-d\TH:i' ); ?>"><?php the_date(); ?> @ <?php the_time(); ?></abbr>
 
-<a href="<?php trackback_url(); ?>"><?php _e('Trackback URL'); ?></a>
+<a href="<?php trackback_url(); ?>"><?php _e( 'Trackback URL' ); ?></a>
 
 <?php comments_popup_link(); ?>
 

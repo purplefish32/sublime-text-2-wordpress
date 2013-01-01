@@ -7,7 +7,7 @@
  * @param string - name of action
  * @param string - name of function to run on this action
  */
-add_action('${1:event_action}', '${2:event_function}');
+add_action( '${1:event_action}', '${2:event_function}' );
 
 /**
  * Function to be called when event is fired
@@ -24,7 +24,7 @@ ${0:// do neat stuff here}
  * @param int - unix timestamp of when to run the event
  * @param string - action to fire at the timestamp
  */
-wp_schedule_single_event(${timestamp:time()}, '${1}');
+wp_schedule_single_event( ${timestamp:time()}, '${1}' );
 ]]></content>
 	<description>Register Single Event</description>
 	<tabTrigger>register_event</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-include(TEMPLATEPATH . '$0');
+include( TEMPLATEPATH . '$0' );
 ]]></content>
 	<description>Include Template File</description>
 	<tabTrigger>templatepath</tabTrigger>
