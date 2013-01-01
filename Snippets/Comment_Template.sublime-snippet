@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<?php if ('open' == \$post->comment_status) : ?>
+<?php if ( 'open' == \$post->comment_status ) : ?>
 
 <div id="respond">
 
@@ -8,9 +8,9 @@
 
 <?php cancel_comment_reply_link(); ?>
 
-<?php if ( get_option('comment_registration') && !\$user_ID ) : ?>
+<?php if ( get_option( 'comment_registration' ) && !\$user_ID ) : ?>
 
-<p>You must be <a href="<?php echo wp_login_url(get_permalink()); ?>">logged in</a> to post a comment.</p>
+<p>You must be <a href="<?php echo wp_login_url( get_permalink() ); ?>">logged in</a> to post a comment.</p>
 
 <?php else : ?>
 
@@ -18,18 +18,18 @@
 
 <?php if ( \$user_ID ) : ?>
 
-<p>Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo \$user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;</a></p>
+<p>Logged in as <a href="<?php echo get_option( 'siteurl' ); ?>/wp-admin/profile.php"><?php echo \$user_identity; ?></a>. <a href="<?php echo wp_logout_url( get_permalink() ); ?>" title="Log out of this account">Log out &raquo;</a></p>
 
 <?php else : ?>
 
 <p>
 <input type="text" name="author" id="author" value="<?php echo \$comment_author; ?>" size="22" tabindex="1" <?php if (\$req) echo "aria-required='true'"; ?> />
-<label for="author">Name <?php if (\$req) echo "(required)"; ?></label>
+<label for="author">Name <?php if ( \$req ) echo "( required )"; ?></label>
 </p>
 
 <p>
 <input type="text" name="email" id="email" value="<?php echo \$comment_author_email; ?>" size="22" tabindex="2" <?php if (\$req) echo "aria-required='true'"; ?> />
-<label for="email">Email (<?php if (\$req) echo "required, "; ?>never shared)</label>
+<label for="email">Email ( <?php if ( \$req ) echo "required, "; ?>never shared )</label>
 </p>
 
 <p>
@@ -44,7 +44,7 @@
 <p>Some HTML is ok: <code><?php echo allowed_tags(); ?></code></p>
 
 <p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" /></p>
-<?php do_action('comment_form', \$post->ID); comment_id_fields(); ?>
+<?php do_action( 'comment_form', \$post->ID ); comment_id_fields(); ?>
 
 </form>
 
