@@ -189,7 +189,7 @@ define('WPLANG', '${12}');
  * will attempt to increase memory allocated to PHP to 32MB (code is at beginning of wp-settings.php), so
  * the setting in wp-config.php should reflect something higher than 32MB.
  */
-// define('WP_MEMORY_LIMIT', '64M')
+// define('WP_MEMORY_LIMIT', '64M');
 
 /**
  * Cache
