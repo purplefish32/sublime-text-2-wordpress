@@ -10,12 +10,12 @@ function ${1:registration_func_name}() {
 * @see add_post_type_support for full descriptions of 'supports' options
 * @see get_post_type_capabilities for full list of available fine grained capabilities that are supported
 */
-register_post_type('${2:post_type}', array(
+register_post_type( '${2:post_type}', array(
 ${3:'labels' => array(
-'name' => __('${4:name}'${5:, '${6:localisation_domain}'}),
-'singular_name' => __('${7:singular-name}'$5)
+'name' => __( '${4:name}'${5:, '${6:localisation_domain}'} ),
+'singular_name' => __( '${7:singular-name}'$5 )
 ),}
-${8:'description' => __('${9:description}'$5),}
+${8:'description' => __( '${9:description}'$5 ),}
 ${10:'public' => ${11:true},}
 ${12:'exclude_from_search' => ${13:null},}
 ${14:'publicly_queryable' => ${15:null},}
@@ -45,7 +45,7 @@ ${38:'capabilities' => array(
 ),}
 ));
 }
-add_action('init', '$1');
+add_action( 'init', '$1' );
 ]]></content>
 	<description>Custom Post Type: Register</description>
 	<tabTrigger>custom_post_type</tabTrigger>

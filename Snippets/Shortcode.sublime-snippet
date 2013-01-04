@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-function ${2:func_name}(\$atts) {
-\$atts = extract(shortcode_atts(array('default'=>'values'),\$atts));
+function ${2:func_name}( \$atts ) {
+	\$atts = extract( shortcode_atts( array( 'default'=>'values' ),\$atts ) );
 
-// do shortcode actions here
+	// do shortcode actions here
 }
-add_shortcode('${1:shortcode-id}','${2:func_name}');
+add_shortcode( '${1:shortcode-id}','${2:func_name}' );
 ]]></content>
 	<description>Shortcode</description>
 	<tabTrigger>shortcode</tabTrigger>
