@@ -8,6 +8,7 @@ Original TextMate bundle author : Gipetto - https://github.com/Gipetto/wordpress
 Special thanks to :
 
 @ericandrewlewis for the scraper : https://github.com/purplefish32/sublime-text-2-wordpress-scraper
+
 @wycks for the review/rewrite
 
 
