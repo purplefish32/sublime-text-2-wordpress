@@ -3,15 +3,39 @@ Sublime Text 2 WordPress Package
 ================
 
 Sublime Text 2 WordPress Package is a collection of WordPress snippets and autocompletions for Sublime Text 2
-Original TextMate bundle author : Gipetto - https://github.com/Gipetto/wordpress.tmbundle
 
-Special thanks to :
+### Features
 
-@ericandrewlewis for the scraper : https://github.com/purplefish32/sublime-text-2-wordpress-scraper
+Autocomplete for:
 
-@wycks for the review/rewrite
+    WP version : 3.7.0
 
+    Functions          : 1734
+    Hooks              : 1434
+    Constants/Classes  :  191
 
-Install instructions :
+### Notes
+
+Deprecated functions (219) have been removed
+
+The first "tab" deletes all parameters instead of having to tab through each one:
+
+- First Tab-->Select all parameters
+- Each Tab Thereafter-->Selects each individual parameter or block
+
+###  Install instructions
 
 Just install via package control (WordPress) or clone into your sublime-text-2 package directory.
+
+### Special thanks
+
+Original TextMate author : [Gipetto](https://github.com/Gipetto/wordpress.tmbundle)  
+Original scraper : [@ericandrewlewis](https://github.com/purplefish32/sublime-text-2-wordpress-scraper )    
+Latest scraper :[@wycks]([@ericandrewlewis](https://github.com/wycks/SublimeText-WordPress-Autocomplete)    
+
+### Tip
+
+Sublime won't autocomplete PHP files when there is no closing `?>` tags , so in "Preferences-->Settings-User" add this snippet:
+
+    "auto_complete_selector": "source, text",
+
