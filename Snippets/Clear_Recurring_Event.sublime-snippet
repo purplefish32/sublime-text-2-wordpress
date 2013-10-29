@@ -6,5 +6,5 @@ if ( ( \$next_run = wp_next_scheduled( '${1:event_action}' ) ) !== false ) {
 ]]></content>
 	<description>Clear Recuring Event</description>
 	<tabTrigger>clear_scheduled</tabTrigger>
-	<scope>source.php</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>

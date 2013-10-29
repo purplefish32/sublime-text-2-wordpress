@@ -26,5 +26,5 @@ add_filter( 'post_updated_messages', '$1' );
 ]]></content>
 	<description>Custom Post Type: Admin Messages</description>
 	<tabTrigger>cptm</tabTrigger>
-	<scope>source.php</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>

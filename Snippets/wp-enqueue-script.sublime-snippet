@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+    /**
+	 * Enqueue scripts
+	 *
+	 * @param string \$handle Script name
+	 * @param string \$src Script url
+	 * @param array \$deps (optional) Array of script names on which this script depends
+	 * @param string|bool \$ver (optional) Script version (used for cache busting), set to null to disable
+	 * @param bool \$in_footer (optional) Whether to enqueue the script before </head> or before </body>
+	 */
+	function ${1:theme_name_scripts}() {
+		wp_enqueue_script( ${2:'${3:\$handle}', '${4:\$src}', ${5:array( 'jquery' )}, ${6:false}, ${7:false}});
+	}
+
+	add_action( 'wp_enqueue_scripts', '${1:theme_name_scripts}' );
+
+]]></content>
+<!-- Optional: Description to show in the menu -->
+    <description>WordPress Enqueue Script</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>wp_enqueue</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php - variable.other.php</scope>
+	<!-- <scope>php</scope> -->
+</snippet>

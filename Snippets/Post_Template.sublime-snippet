@@ -30,5 +30,5 @@ wp_link_pages();
 ]]></content>
 	<description>Post Template</description>
 	<tabTrigger>post</tabTrigger>
-	<scope>text.html</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>

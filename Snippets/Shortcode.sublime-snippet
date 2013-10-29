@@ -9,5 +9,5 @@ add_shortcode( '${1:shortcode-id}','${2:func_name}' );
 ]]></content>
 	<description>Shortcode</description>
 	<tabTrigger>shortcode</tabTrigger>
-	<scope>source.php</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>

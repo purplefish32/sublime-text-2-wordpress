@@ -28,5 +28,5 @@ wp_schedule_event( ${3:timestamp}, '${4:frequency}', '$1' );
 ]]></content>
 	<description>Schedule Recurring Event</description>
 	<tabTrigger>schedule_event</tabTrigger>
-	<scope>source.php</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>

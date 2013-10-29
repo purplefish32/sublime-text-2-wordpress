@@ -30,5 +30,5 @@
 ]]></content>
 	<description>Comment Form Template</description>
 	<tabTrigger>commentform</tabTrigger>
-	<scope>text.html</scope>
+	<scope>text.html - variable.other.php</scope>
 </snippet>

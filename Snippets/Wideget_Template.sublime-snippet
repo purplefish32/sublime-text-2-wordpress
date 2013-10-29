@@ -47,7 +47,7 @@ class ${1:PREFIX_Name}_Widget extends WP_Widget {
      * @return array The validated and (if necessary) amended settings
      **/
     function update( \$new_instance, \$old_instance ) {
-    
+
         // update logic goes here
         \$updated_instance = \$new_instance;
         return \$updated_instance;
@@ -73,5 +73,5 @@ add_action( 'widgets_init', create_function( '', "register_widget( '$1_Widget' )
 ]]></content>
 	<description>Widget Template</description>
 	<tabTrigger>widget</tabTrigger>
-	<scope>source.php</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>

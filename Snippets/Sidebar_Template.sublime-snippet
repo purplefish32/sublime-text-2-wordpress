@@ -9,5 +9,5 @@ if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( '${1:Sidebar N
 ]]></content>
 	<description>Sidebar Template</description>
 	<tabTrigger>sidebar</tabTrigger>
-	<scope>text.html</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>

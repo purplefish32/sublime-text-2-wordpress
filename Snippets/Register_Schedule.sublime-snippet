@@ -21,5 +21,5 @@ add_filter( 'cron_schedules', '$1' );
 ]]></content>
 	<description>Register Schedule</description>
 	<tabTrigger>register_schedule</tabTrigger>
-	<scope>source.php</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>

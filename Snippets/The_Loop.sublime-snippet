@@ -10,5 +10,5 @@ ${0:<!-- no posts found -->}
 ]]></content>
 	<description>The Loop</description>
 	<tabTrigger>theloop</tabTrigger>
-	<scope>text.html</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>

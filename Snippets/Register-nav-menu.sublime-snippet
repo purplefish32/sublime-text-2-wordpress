@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+   /**
+	* Displays a navigation menu
+	* @param array \$args Arguments
+	*/
+	${1:\$args} = array(
+		${2:${3:'theme_location' => '${4}',}
+		${5:'menu' => '${6}',}
+		${7:'container' => '${8:div}',}
+		${9:'container_class' => '${10:menu-\{menu-slug\}-container}',}
+		${11:'container_id' => '${12}',}
+		${13:'menu_class' => '${14:menu}',}
+		${15:'menu_id' => '${16}',}
+		${17:'echo' => ${18:true},}
+		${19:'fallback_cb' => '${20:wp_page_menu}',}
+		${21:'before' => '${22}',}
+		${23:'after' => '${24}',}
+		${25:'link_before' => '${26}',}
+		${27:'link_after' => '${28}',}
+		${29:'items_wrap' => '${30:<ul id = "%1\$s" class = "%2\$s">%3\$s</ul>}',}
+		${31:'depth' => ${32:0},}
+		${33:'walker' => '${34}'}
+	});
+
+	wp_nav_menu( ${1:\$args} );
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_nav_menu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php - variable.other.php</scope>
+	<description>wp_nav_menu All Options</description>
+</snippet>

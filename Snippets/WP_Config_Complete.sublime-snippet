@@ -298,5 +298,5 @@ require_once(ABSPATH . 'wp-settings.php');
 ]]></content>
 	<description>WP Config (complete)</description>
 	<tabTrigger>wp-config</tabTrigger>
-	<scope>source.php, text</scope>
+	<scope>source.php - variable.other.php</scope>
 </snippet>
