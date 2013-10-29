@@ -1,6 +1,4 @@
-================
-Sublime Text 2 WordPress Package
-================
+##Sublime Text 2 WordPress Package
 
 Sublime Text 2 WordPress Package is a collection of WordPress snippets and autocompletions for Sublime Text 2
 
@@ -29,9 +27,9 @@ Just install via package control (WordPress) or clone into your sublime-text-2 p
 
 ### Special thanks
 
-Original TextMate author : [Gipetto](https://github.com/Gipetto/wordpress.tmbundle)  
-Original scraper : [@ericandrewlewis](https://github.com/purplefish32/sublime-text-2-wordpress-scraper )    
-Latest scraper :[@wycks]([@ericandrewlewis](https://github.com/wycks/SublimeText-WordPress-Autocomplete)    
+Original TextMate author : [Gipetto](https://github.com/Gipetto/wordpress.tmbundle)
+Original scraper : [@ericandrewlewis](https://github.com/purplefish32/sublime-text-2-wordpress-scraper )
+Latest scraper :[@wycks]([@ericandrewlewis](https://github.com/wycks/SublimeText-WordPress-Autocomplete)
 
 ### Tip
 
