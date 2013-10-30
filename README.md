@@ -29,9 +29,9 @@ register a custom post type you would write `register_post...`. Please review th
 
 ### Special thanks
 
-Original TextMate author : [Gipetto](https://github.com/Gipetto/wordpress.tmbundle)
-Original scraper : [@ericandrewlewis](https://github.com/purplefish32/sublime-text-2-wordpress-scraper )
-Latest scraper :[@wycks]([@ericandrewlewis](https://github.com/wycks/SublimeText-WordPress-Autocomplete)
+Original TextMate author : [Gipetto](https://github.com/Gipetto/wordpress.tmbundle)  
+Original scraper : [@ericandrewlewis](https://github.com/purplefish32/sublime-text-2-wordpress-scraper )  
+Latest scraper :[@wycks]((https://github.com/wycks/SublimeText-WordPress-Autocomplete)  
 
 ### Tip
 
