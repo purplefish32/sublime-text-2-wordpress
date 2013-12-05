@@ -41,7 +41,7 @@ function ${1:my_taxonomies_name}() {
 		${23:'query_var'         => ${24:true},}
 		${25:'rewrite'           => ${26:true},}
 		${27:'query_var'         => ${28:true},}
-		${29:'capabilities'      => '${30}',}
+		${29:'capabilities'      => ${30:array()},}
 	);}
 
 	register_taxonomy( '${5:Singular Name}', array( '${31:post}' ), ${9:\$args} );
