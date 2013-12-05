@@ -44,7 +44,7 @@ function ${1:my_taxonomies_name}() {
 		${29:'capabilities'      => ${30:array()},}
 	);}
 
-	register_taxonomy( '${5:Singular Name}', array( '${31:post}' ), ${9:\$args} );
+	register_taxonomy( '${31:taxonomy-slug}', array( '${32:post}' ), ${9:\$args} );
 }
 
 add_action( 'init', '${1:my_taxonomies_name}' );
