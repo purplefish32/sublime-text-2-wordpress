@@ -51,7 +51,7 @@ function ${1:prefix_register_name}() {
 			})}
 	);}
 
-	register_post_type( '${5:Singular Name}', ${9:\$args} );
+	register_post_type( '${7:slug}', ${9:\$args} );
 }
 
 add_action( 'init', '${1:prefix_register_name}' );
