@@ -26,7 +26,7 @@ function ${1:prefix_register_name}() {
 	);}
 
 	${8:${9:\$args} = array(
-		'labels'              => ${3:\$labels},
+		'labels'                   => ${3:\$labels},
 		${10:'hierarchical'        => ${11:false},}
 		${12:'description'         => '${13:description}',}
 		${14:'taxonomies'          => array(),
