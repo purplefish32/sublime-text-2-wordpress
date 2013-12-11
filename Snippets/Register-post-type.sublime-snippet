@@ -29,7 +29,7 @@ function ${1:prefix_register_name}() {
 		'labels'              => ${3:\$labels},
 		${10:'hierarchical'        => ${11:false},}
 		${12:'description'         => '${13:description}',}
-		${14:'taxonomies'          => array( '${15:category}' ),}
+		${14:'taxonomies'          => array(),
 		${16:'public'              => ${17:true},}
 		${18:'show_ui'             => ${19:true},}
 		${20:'show_in_menu'        => ${21:true},}
