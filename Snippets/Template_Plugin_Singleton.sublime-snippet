@@ -38,7 +38,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  * By default the option to uninstall the plugin is disabled,
  * to use uncomment or remove if not used.
  *
- * This Template not have the necessary code for use in multisite. 
+ * This Template does not have the necessary code for use in multisite. 
  *
  * Also delete this comment block is unnecessary once you have read.
  *
