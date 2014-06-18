@@ -29,7 +29,6 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-
 /**
  * Snippet Wordpress Plugin Boilerplate based on:
  *
@@ -39,6 +38,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  * By default the option to uninstall the plugin is disabled,
  * to use uncomment or remove if not used.
  *
+ * This Template not have the necessary code for use in multisite. 
+ *
  * Also delete this comment block is unnecessary once you have read.
  *
  * Version 1.0
@@ -47,10 +48,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 add_action( 'plugins_loaded', array( '${12:Plugin_Class_Name}', 'get_instance' ) );
-
 register_activation_hook( __FILE__, array( '${12:Plugin_Class_Name}', 'activate' ) );
 register_deactivation_hook( __FILE__, array( '${12:Plugin_Class_Name}', 'deactivate' ) );
-
 // register_uninstall_hook( __FILE__, array( '${12:Plugin_Class_Name}', 'uninstall' ) );
 
 class ${12:Plugin_Class_Name} {
