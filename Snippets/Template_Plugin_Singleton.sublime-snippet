@@ -57,10 +57,10 @@ class ${12:Plugin_Class_Name} {
 	private static \$instance = null;
 
 	public static function get_instance() {
-		if ( ! isset( self::$instance ) )
-			self::$instance = new self;
+		if ( ! isset( self::\$instance ) )
+			self::\$instance = new self;
 
-		return self::$instance;
+		return self::\$instance;
 	}
 
 	private function __construct() {}
