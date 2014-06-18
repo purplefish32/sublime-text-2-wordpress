@@ -55,7 +55,7 @@ register_deactivation_hook( __FILE__, array( '${12:Plugin_Class_Name}', 'deactiv
 
 class ${12:Plugin_Class_Name} {
 
-	private \$instance = null;
+	private static \$instance = null;
 
 	public static function get_instance() {
 		if ( ! isset( self::$instance ) )
