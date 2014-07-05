@@ -81,7 +81,7 @@ class ${12:Plugin_Class_Name} {
 	<!-- Optional: Description to show in the menu -->
 	<description>WordPress Plugin Boilerplate (Singleton)</description>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>WP Template Plugin - Singleton</tabTrigger>
+	<tabTrigger>wp_plugin_sin</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>
