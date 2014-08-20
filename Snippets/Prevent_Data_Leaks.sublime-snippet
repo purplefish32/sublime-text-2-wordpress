@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if ( ! defined( 'ABSPATH' ) ) { 
+    exit; // Exit if accessed directly
+}
+]]></content>
+	<description>Prevent Data Leaks</description>
+	<tabTrigger>prevent_data_leaks</tabTrigger>
+	<scope>source.php - variable.other.php</scope>
+</snippet>
