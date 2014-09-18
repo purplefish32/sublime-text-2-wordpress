@@ -3,6 +3,7 @@
 	"comment": "WP Functions",
 	"completions":
 	[
+	{"trigger": "__", "contents": "__( '${1:text}'${2:, '${3:domain}'} )"},
 	{"trigger": "__checked_selected_helper", "contents": "__checked_selected_helper(${1: ${2:\\$helper}, ${3:\\$current}, ${4:\\$echo}, ${5:\\$type}} );"},
 	{"trigger": "__clear_multi_author_cache", "contents": "__clear_multi_author_cache();"},
 	{"trigger": "__return_empty_array", "contents": "__return_empty_array();"},
