@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:[Short Description (no period for file headers)]}
+ *
+ * ${2:[Long Description.]}
+ *
+ * @link ${3:[URL]}
+ * @since ${4:[x.x.x (if available)]}
+ *
+ * @package ${5:[Plugin/Theme/Etc]}
+ */
+
+]]></content>
+<!-- Optional: Description to show in the menu -->
+    <description>WordPress File Header</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>file_head</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!--<scope>source.php - variable.other.php</scope>-->
+</snippet>
