@@ -27,6 +27,19 @@ The first "tab" deletes all parameters instead of having to tab through each one
 
 Actions or Filter add two version of the completion only this not is dynamic name
 
+Include plugin Akismet, Default themes for completions ( functions, actions, filters, constants and classes )
+
+Defaults Themes:
+
+	classic        : v1.6
+	default        : v1.7.2
+	twentyten      : v1.9
+	twentyeleven   : v2.1
+	twentytwelve   : v1.7
+	twentythirteen : v1.5
+	twentyfourteen : v1.4
+	twentyfifteen  : v1.2
+
 ### Snippets
 
 Some updated snippets use the same name as the function, the autocomplete will show an "ALL Options" selection. For example to
