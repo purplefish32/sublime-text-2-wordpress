@@ -1,25 +1,31 @@
-##Sublime Text 2 WordPress Package
+##Sublime Text WordPress Package
 
-Sublime Text 2 WordPress Package is a collection of WordPress snippets and autocompletions for Sublime Text 2
+Sublime Text WordPress Package is a collection of WordPress snippets and autocompletions for Sublime Text
 
 ### Features
 
 Autocomplete for:
 
-    WP version : 3.7.0
+    WP version : 4.2.2
 
-    Functions          : 1734
-    Hooks              : 1434
-    Constants/Classes  :  191
+    Functions    : 2506
+    Filters      : 1105
+    Actions      : 533
+    Classes      : 245
+    Constants    : 502
+    Capabilities : WordPress Core Capabilities
+
 
 ### Notes
 
-Deprecated functions (219) have been removed
+Deprecated functions have been removed
 
 The first "tab" deletes all parameters instead of having to tab through each one:
 
 - First Tab-->Select all parameters
 - Each Tab Thereafter-->Selects each individual parameter or block
+
+Actions or Filter add two version of the completion only this not is dynamic name
 
 ### Snippets
 
@@ -29,9 +35,9 @@ register a custom post type you would write `register_post...`. Please review th
 
 ### Special thanks
 
-Original TextMate author : [Gipetto](https://github.com/Gipetto/wordpress.tmbundle)  
-Original scraper : [@ericandrewlewis](https://github.com/purplefish32/sublime-text-2-wordpress-scraper )  
-Latest scraper :[@wycks](https://github.com/wycks/SublimeText-WordPress-Autocomplete)  
+Original TextMate author : [Gipetto](https://github.com/Gipetto/wordpress.tmbundle)
+Original scraper : [@ericandrewlewis](https://github.com/purplefish32/sublime-text-2-wordpress-scraper )
+Latest scraper :[@wycks](https://github.com/wycks/SublimeText-WordPress-Autocomplete)
 
 ### Tip
 
@@ -41,5 +47,5 @@ Sublime won't autocomplete PHP files when there is no closing `?>` tags , so in 
 
 ###  Install instructions
 
-Just install via package control (WordPress) or clone into your sublime-text-2 package directory.
+Just install via package control (WordPress) or clone into your sublime-text package directory.
 
