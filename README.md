@@ -56,21 +56,19 @@ Defaults Themes Versions:
 
 ### Snippets
 
-Some updated snippets use the same name as the function, the autocomplete will show an "ALL Options" selection. For example to
-register a custom post type you would write `register_post...`. Please review the snippets `<tabTrigger>` to see how to call the rest.
+In the process, there are now those of the original package
 
-### Tip
+### Tips
 
 Tested on Sublime Text v3092
 
+
 ###  Install instructions
 
-~~Just install via package control (WordPress) or clone into your sublime-text package directory for original package~~
+- Remove or Disabled original package
+- Add repository via Package Control: Add Repository
 
-Temporarily you can install this package manually, add this repository in Package Control until the official package is upgraded.
-Search sublime-text-wordpress and install, if is available Oficial Package WordPress, remove or disabled
-
-### Issues & Requests
+### Issues & Featured Requests
 
 You found some issue, please create an issue to solve it.
 
