@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[${1:<?php
+}${17:/**
+ * ${16:Template} Contextual Help Tabs.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Screen/add_help_tab
+ */
+}function ${2:function_prefix}_add_help_tab() \{
+    \$screen = get_current_screen();
+
+    // Add help_tab if current screen
+    \$screen->add_help_tab( array(
+        'id'	=> ${3:'${4:id_help_tab}',}
+        'title'	=> ${5:__( '${6:Help Tab Title}'${7:, ${8:'${9:text_domain}'}} )},
+        'content'	=> ${10:sprintf( '<p>%s</p>', __( '${11:Descriptive content that will show in My Help Tab-body goes here.}'$8 ) )}${12:,
+        'callback' => '${13:callback}'}
+    ) );
+
+    ${15:// Optional.
+    \$screen->set_help_sidebar( ${15:'This is the content you will be adding to the sidebar for the current page. You must make sure other tabs have already been added using the "add_help_tab" function above. This sidebar will not show up unless there are tabs for the current screen'} );}
+\}
+]]></content>
+	<description>WP Template: Contextual Help Tabs</description>
+	<tabTrigger>wp-help-tabs</tabTrigger>
+	<scope>embedding.php</scope>
+</snippet>

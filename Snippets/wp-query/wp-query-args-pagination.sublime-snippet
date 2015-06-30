@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[${15:/**
+ * Pagination Parameters
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Pagination_Parameters
+ *
+ * nopaging               : (boolean) - show all posts or use pagination. Default value is 'false', use paging.
+ * posts_per_page         : (int)     - number of post to show per page (available with Version 2.1, replaced showposts parameter).
+ *                                      Use 'posts_per_page'=>-1 to show all posts (the 'offset' parameter is ignored with a -1 value).
+ *                                      Set the 'paged' parameter if pagination is off after using this parameter.
+ *                                      NOTE:
+ *                                        If the query is in a feed, wordpress overwrites this parameter with the stored 'posts_per_rss' option.
+ *                                        To reimpose the limit, try using the 'post_limits' filter, or filter 'pre_option_posts_per_rss' and return -1
+ * posts_per_archive_page : (int)     - number of posts to show per page - on archive pages only.
+ *                                      Over-rides posts_per_page and showposts on pages where is_archive() or is_search() would be true.
+ * offset                 : (int)     - number of post to displace or pass over.
+ *                                      WARNING:
+ *                                        Setting the offset parameter overrides/ignores the paged parameter and breaks pagination.
+ *                                        (see https://codex.wordpress.org/Making_Custom_Queries_using_Offset_and_Pagination for a workaround).
+ *                                        The 'offset' parameter is ignored when 'posts_per_page'=>-1 (show all posts) is used.
+ * paged                  : (int)     - number of page. Show the posts that would normally show up just on page X when using the "Older Entries" link.
+ * page                   : (int)     - number of page for a static front page. Show the posts that would normally show up just on page X of a Static Front Page.
+ * ignore_sticky_posts    : (boolean) - ignore post stickiness (available with Version 3.1, replaced caller_get_posts parameter).
+ *
+ *                                      false (default) : move sticky posts to the start of the set.
+ *                                      true            : do not move sticky posts to the start of the set.
+ */
+}${1:'nopaging'               => ${2:false},
+}${3:'posts_per_page'         => ${4:10},
+}${5:'posts_per_archive_page' => ${6:10},
+}${7:'offset'                 => ${8:0},
+}${9:'paged'                  => ${10:1},
+}${11:'page'                   => ${12:1},
+}${13:'ignore_sticky_post'     => ${14:false},}
+]]></content>
+	<description>WP Template: Pagination Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-pagination</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

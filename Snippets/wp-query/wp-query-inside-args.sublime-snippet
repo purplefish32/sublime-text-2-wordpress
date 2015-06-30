@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[\$${1:custom_query} = new WP_Query( array(
+	${3:// Because of the complexity of the WP_Query arguments used wp-query-args- to show the different possibilities}
+) );
+
+]]></content>
+	<description>WP Template: New WP_Query with inside args</description>
+	<tabTrigger>wp-query-inside-args</tabTrigger>
+	<scope>embedding.php - variable.other.php</scope>
+</snippet>

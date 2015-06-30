@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[${3:/**
+ * Order Parameters
+ *
+ * Sort retrieved posts.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters
+ *
+ * order   : (string|array) - Designates the ascending or descending order of the 'orderby' parameter.
+ *                            Defaults to 'DESC'. An array can be used for multiple order/orderby sets.
+ *
+ *                            'ASC'  : ascending order from lowest to highest values (1, 2, 3; a, b, c).
+ *                            'DESC' : descending order from highest to lowest values (3, 2, 1; c, b, a).
+ */
+}'order'                  => ${1:'${2:DESC}'},
+]]></content>
+	<description>WP Template: Order & Orderby Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-order-orderby</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

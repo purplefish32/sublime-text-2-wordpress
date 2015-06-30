@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[${3:/**
+ * Status Parameters
+ *
+ * Show posts associated with certain status.
+ *
+ * @see https://codex.wordpress.org/Post_Status
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Status_Parameters
+ *
+ * post_status : (string|array) - use post status.
+ *                                Retrieves posts by Post Status.
+ *                                Default value is 'publish', but if the user is logged in, 'private' is added.
+ *                                And if the query is run in an admin context (administration area or AJAX call), protected statuses are added too.
+ *                                By default protected statuses are 'future', 'draft' and 'pending'.
+ *
+ *                                'publish'    : a published post or page.
+ *                                'pending'    : post is pending review.
+ *                                'draft'      : a post in draft status.
+ *                                'auto-draft' : a newly created post, with no content.
+ *                                'future'     : a post to publish in the future.
+ *                                'private'    : not visible to users who are not logged in.
+ *                                'inherit'    : a revision. see get_children.
+ *                                'trash'      : post is in trashbin (available with Version 2.9).
+ *                                'any'        : retrieves any status except those from post statuses with 'exclude_from_search' set to true (i.e. trash and auto-draft).
+ */
+}'post_status'            => ${1:'${2:publish}'},
+]]></content>
+	<description>WP Template: Status Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-status</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

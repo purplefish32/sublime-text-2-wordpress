@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[${1:<?php
+}/**
+ * Plugin Name: ${2:Name}
+ * Description: ${3:Description}
+ * Plugin URI: http${4:...}
+ * Author: ${5:Author}
+ * Author URI: http${6:...}
+ * Version: ${7:1.0}
+ * License: ${8:GPL2 or later}
+${9: * License URI: ${10:https://www.gnu.org/licenses/gpl-2.0.html}
+}${11: * Text Domain: ${12:Text Domain}
+}${13: * Domain Path: ${14:Domain Path}}${15:
+ * Network: ${16:false}}
+ *
+ *
+ * $2 is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * any later version.
+ *
+ * $2 is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with $2. If not, see ${17:$10}.
+ */
+
+defined( 'ABSPATH' ) or exit;
+
+]]></content>
+	<description>WP Template: Plugin Header with license</description>
+	<tabTrigger>wp-plugin-header-license</tabTrigger>
+	<scope>embedding.php</scope>
+</snippet>
