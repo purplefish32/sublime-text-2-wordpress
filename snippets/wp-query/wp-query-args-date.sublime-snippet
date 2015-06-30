@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[${17:/**
+ * Date Parameters
+ *
+ * Show posts associated with a certain time and date period.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Date_Parameters
+ *
+ * year       : (int)   - 4 digit year (e.g. 2011).
+ * monthnum   : (int)   - Month number (from 1 to 12).
+ * w          : (int)   - Week of the year (from 0 to 53).
+ *                        Uses MySQL WEEK command.
+ *                        The mode is dependent on the "start_of_week" option.
+ * day        : (int)   - Day of the month (from 1 to 31).
+ * hour       : (int)   - Hour (from 0 to 23).
+ * minute     : (int)   - Minute (from 0 to 60).
+ * second     : (int)   - Second (0 to 60).
+ * m          : (int)   - YearMonth (For e.g.: 201307).
+ */
+}${1:'year'                   => ${2:2011},
+}${3:'monthnum'               => ${4:12},
+}${5:'w'                      => ${6:53},
+}${7:'day'                    => ${8:31},
+}${9:'hour'                   => ${10:23},
+}${11:'minute'                 => ${12:60},
+}${13:'second'                 => ${14:60},${15:
+'m'                      => ${16:201307},}
+]]></content>
+	<description>WP Template: Date Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-date</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

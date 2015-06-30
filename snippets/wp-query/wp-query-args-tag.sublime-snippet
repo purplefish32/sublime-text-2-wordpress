@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[${21:/**
+ * Tag Parameters
+ *
+ * Show posts associated with certain tags.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Tag_Parameters
+ *
+ * tag           : (string) - use tag slug.
+ * tag_id        : (int)    - use tag id.
+ * tag__and      : (array)  - use tag ids.
+ * tag__in       : (array)  - use tag ids.
+ * tag__not_in   : (array)  - use tag ids.
+ * tag_slug__and : (array)  - use tag slugs.
+ * tag_slug__in  : (array)  - use tag slugs.
+ */
+}${1:'tag'                    => ${2:'${3:tag_slug}'},
+}${4:'tag_id'                 => ${5:1},
+}${6:'tag__and'               => ${7:array( ${8:1, 2, 3} )},
+}${9:'tag__in'                => ${10:array( ${11:1, 2, 3} )},
+}${12:'tag__not_in'            => ${13:array( ${14:1, 2, 3} )},
+}${15:'tag_slug__and'          => ${16:array( ${17:'tag_slug_one', 'tag_slug_two', 'tag_slug_three'} )},}${18:
+'tag_slug__in'           => ${19:array( ${20:'tag_slug_one', 'tag_slug_two', 'tag_slug_three'} )},}
+]]></content>
+	<description>WP Template: Tag Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-tag</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

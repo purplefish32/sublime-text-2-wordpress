@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[${3:/**
+ * Type Parameters
+ *
+ * Show posts associated with certain type.
+ *
+ * @see https://codex.wordpress.org/Post_Types
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Type_Parameters
+ *
+ * post_type : (string|array) - use post types.
+ *                              Retrieves posts by Post Types, default value is 'post'.
+ *                              If 'tax_query' is set for a query, the default value becomes 'any'.
+ *
+ *                              'post'             - a post.
+ *                              'page'             - a page.
+ *                              'revision'         - a revision.
+ *                              'attachment'       - an attachment. Whilst the default WP_Query post_status is 'publish', attachments have a default post_status of 'inherit'.
+ *                                                   This means no attachments will be returned unless you also explicitly set post_status to 'inherit' or 'any'.
+ *                                                   (see https://codex.wordpress.org/Class_Reference/WP_Query#Status_Parameters)
+ *                              'nav_menu_item'    - a navigation menu item
+ *                              'any'              - retrieves any type except revisions and types with 'exclude_from_search' set to true.
+ *                              'custom_post_type' - Custom Post Types (e.g. movies)
+ */
+}'post_type'              => ${1:'${2:post}'},
+]]></content>
+	<description>WP Template: Type Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-type</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

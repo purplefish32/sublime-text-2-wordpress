@@ -1,0 +1,70 @@
+<snippet>
+	<content><![CDATA[${1:<?php
+}${9:/**
+ * ${8:Custom Post Type Name} update messages.
+ *
+ * @see /wp-admin/edit-form-advanced.php
+ *
+ * @param array \$messages Existing post update messages.
+ *
+ * @return array Amended post update messages with new CPT update messages.
+ */
+}function ${2:function_prefix}_updated_messages( \$messages ) \{
+	\$post              = get_post();
+	\$post_type         = get_post_type( \$post );
+
+	// For Performance
+	if ( '${3:custom_post_type}' !== \$post_type ) \{
+		return \$messages;
+	\}
+
+	\$post_type_object = get_post_type_object( \$post_type );
+	\$post_type_labels = \$post_type_object->labels;
+
+	\$messages[ \$post_type ] = array(
+		0  => '', // Unused. Messages start at index 1.
+		1  => sprintf( __( '%s updated.'${5:, ${6:'${7:text_domain}'}} ), \$post_type_labels->singular_name ),
+		2  => __( 'Custom field updated.'$5 ),
+		3  => __( 'Custom field deleted.'$5 ),
+		4  =>  sprintf( __( '%s updated.'$5 ), \$post_type_labels->singular_name ),
+		/* translators: second %s: date and time of the revision */
+		5  => isset( \$_GET['revision'] ) ?
+			sprintf(__( '%s restored to revision from %s'$5 ), \$post_type_labels->singular_name, wp_post_revision_title( (int) \$_GET['revision'], false ) ) :
+			false,
+		6  => sprintf( __( '%s published.'$5 ), \$post_type_labels->singular_name ),
+		7  => sprintf( __( '%s saved.'$5 ), \$post_type_labels->singular_name ),
+		8  => sprintf( __( '%s submitted.'$5 ), \$post_type_labels->singular_name ),
+		9  => sprintf( __( '%s scheduled for: <strong>%s</strong>.'$5 ), \$post_type_labels->singular_name,
+			// translators: Publish box date format, see http://php.net/date
+			date_i18n( __( 'M j, Y @ G:i'$5 ), strtotime( \$post->post_date ) )
+		),
+		10 => sprintf( __( '%s draft updated.'$5 ), \$post_type_labels->singular_name ),
+	);
+
+	if ( \$post_type_object->publicly_queryable ) \{
+		\$permalink = get_permalink( \$post->ID );
+		\$view_link = sprintf( ' <a href="%s">%s</a>', esc_url( \$permalink ), \$post_type_labels->view_item );
+
+		\$messages[ \$post_type ][1] .= \$view_link;
+		\$messages[ \$post_type ][6] .= \$view_link;
+		\$messages[ \$post_type ][9] .= \$view_link;
+
+		\$preview_permalink = add_query_arg( 'preview', 'true', \$permalink );
+		\$preview_link      = sprintf(
+			' <a target="_blank" href="%s">%s</a>',
+			esc_url( \$preview_permalink ),
+			sprintf( __( 'Preview %s'$5 ), \$post_type_labels->singular_name )
+		);
+
+		\$messages[ \$post_type ][8]  .= \$preview_link;
+		\$messages[ \$post_type ][10] .= \$preview_link;
+	\}
+
+	return \$messages;
+\}
+add_filter( 'post_updated_messages', '$2_updated_messages' );
+]]></content>
+	<description>WP Template: Post Type - Updated Messages</description>
+	<tabTrigger>wp-post-type-messages</tabTrigger>
+	<scope>embedding.php</scope>
+</snippet>

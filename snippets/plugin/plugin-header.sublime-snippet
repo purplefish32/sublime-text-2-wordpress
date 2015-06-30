@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[${1:<?php
+}/**
+ * Plugin Name: ${2:Name}
+ * Description: ${3:Description}
+ * Plugin URI: http${4:...}
+ * Author: ${5:Author}
+ * Author URI: http${6:...}
+ * Version: ${7:1.0}
+ * License: ${8:GPL2 or later}
+ * License URI: ${9:https://www.gnu.org/licenses/gpl-2.0.html}
+${10: * Text Domain: ${11:Text Domain}
+}${12: * Domain Path: ${13:Domain Path}}$14:
+ * Network: ${15:false}}
+ */
+
+defined( 'ABSPATH' ) or exit;
+
+]]></content>
+	<description>WP Template: Plugin Header</description>
+	<tabTrigger>wp-plugin-header</tabTrigger>
+	<scope>embedding.php</scope>
+</snippet>
