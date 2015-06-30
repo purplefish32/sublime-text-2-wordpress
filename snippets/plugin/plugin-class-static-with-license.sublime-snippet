@@ -1,0 +1,77 @@
+<snippet>
+	<content><![CDATA[${1:<?php
+}/**
+ * Plugin Name: ${2:Name}
+ * Description: ${3:Description}
+ * Plugin URI: http${4:...}
+ * Author: ${5:Author}
+ * Author URI: http${6:...}
+ * Version: ${7:1.0}
+ * License: ${8:GPL2 or later}
+${9: * License URI: ${10:https://www.gnu.org/licenses/gpl-2.0.html}
+}${11: * Text Domain: ${12:Text Domain}
+}${13: * Domain Path: ${14:Domain Path}}${15:
+ * Network: ${16:false}}
+ *
+ *
+ * $2 is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * any later version.
+ *
+ * $2 is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with $2. If not, see ${17:$10}.
+ */
+
+defined( 'ABSPATH' ) or exit;
+
+add_action( 'plugins_loaded', '${18:Plugin_Class_Name}::on_load' );
+register_activation_hook( __FILE__, '$18::do_activate' );
+register_deactivation_hook( __FILE__, '$18::do_deactivate' );
+${19:register_uninstall_hook( __FILE__, '$18::do_uninstall' );}
+
+if ( ! class_exists( '$18' ) ):
+	class $18 \{
+
+		public static function on_load() \{
+			$0
+		\}
+
+		public static function do_activate( \$network_wide ) \{
+			if ( ! current_user_can( 'activate_plugins' ) )
+				return;
+
+			\$plugin = isset( \$_REQUEST['plugin'] ) ? \$_REQUEST['plugin'] : '';
+			check_admin_referer( "activate-plugin_\{\$plugin\}" );
+		\}
+
+		public static function do_deactivate( \$network_wide ) \{
+			if ( ! current_user_can( 'activate_plugins' ) )
+				return;
+
+			\$plugin = isset( \$_REQUEST['plugin'] ) ? \$_REQUEST['plugin'] : '';
+			check_admin_referer( "deactivate-plugin_\{\$plugin\}" );
+		\}${20:
+
+		public static function do_uninstall( \$network_wide ) \{
+			if ( ! current_user_can( 'activate_plugins' ) )
+				return;
+
+			check_admin_referer( 'bulk-plugins' );
+
+			if ( __FILE__ != WP_UNINSTALL_PLUGIN  )
+				return;
+		\}}
+	\}
+endif;
+
+]]></content>
+	<description>WP Template: Plugin Class Static with license</description>
+	<tabTrigger>wp-plugin-class-static-license</tabTrigger>
+	<scope>embedding.php</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[${7:/**
+ * Caching Parameters
+ *
+ * Stop the data retrieved from being added to the cache.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Caching_Parameters
+ *
+ * cache_results          : (boolean) - Post information cache.
+ * update_post_meta_cache : (boolean) - Post meta information cache.
+ * update_post_term_cache : (boolean) - Post term information cache.
+ */
+}${1:'cache_results'          => ${2:true},
+}${3:'update_post_meta_cache' => ${4:true},}${5:
+'update_post_term_cache' => ${6:true},}
+]]></content>
+	<description>WP Template: Caching Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-caching</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

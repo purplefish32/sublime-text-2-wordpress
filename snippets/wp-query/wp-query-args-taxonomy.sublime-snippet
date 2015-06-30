@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[${17:/**
+ * Taxonomy Parameters
+ *
+ * Show posts associated with certain taxonomy.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Taxonomy_Parameters
+ *
+ * tax_query        : (array)            - use taxonomy parameters (available with Version 3.1).
+ * relation         : (string)           - The logical relationship between each inner taxonomy array when there is more than one.
+ *                                         Possible values are 'AND', 'OR'. Do not use with a single inner taxonomy array.
+ * taxonomy         : (string)           - Taxonomy.
+ * field            : (string)           - Select taxonomy term by ('term_id'(default), 'name' or 'slug')
+ * terms            : (int/string/array) - Taxonomy term(s).
+ * include_children : (boolean)          - Whether or not to include children for hierarchical taxonomies. Defaults to true.
+ * operator         : (string)           - Operator to test. Possible values are 'IN'(default), 'NOT IN', 'AND'.
+ */
+}'tax_query'              => array(${1:
+	'relation' => ${2:'${3:AND}'},}
+	array(
+		'taxonomy'         => ${4:'${5:taxonomy}'},
+		${6:'field'            => ${7:'${8:term_id}'},
+		}${9:'terms'            => ${10:array( ${11:1, 2, 3} )},
+		}${12:'include_children' => ${13:true},}${14:
+		'operator'         => ${15:'${16:IN}'},}
+	),
+),
+]]></content>
+	<description>WP Template: Taxonomy Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-tax</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

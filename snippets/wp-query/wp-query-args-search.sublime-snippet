@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[${3:/**
+ * Search Parameter
+ *
+ * Show posts based on a keyword search.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Search_Parameter
+ *
+ * s : (string) - Search keyword.
+ */
+}'s'                      => ${1:'${2:keyword}'},
+]]></content>
+	<description>WP Template: Search Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-search</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

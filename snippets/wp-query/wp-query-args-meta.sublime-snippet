@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[${13:/**
+ * Custom Field Parameters
+ *
+ * Show posts associated with a certain custom field.
+ *
+ * This part of the query is parsed by WP_Meta_Query.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Meta_Query
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Custom_Field_Parameters
+ *
+ * meta_key       : (string)       - Custom field key. ( You must sanitize this yourself )
+ * meta_value     : (string|array) - Custom field value. ( You must sanitize this yourself )
+ * meta_value_num : (number)       - Custom field value.
+ * meta_type      : (number)       - Custom field type (see type below for options).
+ * meta_compare   : (string)       - Operator to test the 'meta_value'. Default value is '='.
+ *                                   Possible values:
+ *                                     '=', '!=', '>', '>=', '<', '<='
+ *                                     'LIKE', 'NOT LIKE'
+ *                                     'IN', 'NOT IN'
+ *                                     'BETWEEN', 'NOT BETWEEN'
+ *                                     'NOT EXISTS'
+ *                                     'REGEXP', 'NOT REGEXP'
+ *                                     'RLIKE'
+ */
+}${1:'meta_key'               => ${2:'${3:custom_field_key}'},
+}${4:'meta_value'             => ${5:'${6:custom_field_value}'},
+}${7:'meta_value_num'         => ${8:'${9:1}'},}${10:
+'meta_compare'           => ${11:'${12:=}'},
+]]></content>
+	<description>WP Template: Meta Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-meta</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

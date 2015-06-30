@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[${3:/**
+ * Permission Parameters
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Permission_Parameters
+ *
+ * perm : (string) - User permission.
+ */
+}'perm'                   => ${1:'${2:readable}'},
+]]></content>
+	<description>WP Template: Permission Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-permission</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[${20:/**
+ * Post Parameters
+ *
+ * Display content based on post parameters. Remember that default post_type is only set to display posts but not pages.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Post_.26_Page_Parameters
+ *
+ * p                   : (int)    - use post id.
+ * name                : (string) - use post slug.
+ * post_parent         : (int)    - use post id to return only child posts. Set to 0 to return only top-level entries.
+ * post_parent__in     : (array)  - use post ids. Specify posts whose parent is in an array.
+ *                                  NOTE: Introduced in 3.6 http://core.trac.wordpress.org/ticket/11056
+ * post_parent__not_in : (array)  - use post ids. Specify posts whose parent is not in an array.
+ * post__in            : (array)  - use post ids. Specify posts to retrieve.
+ *                                  ATTENTION: If you use sticky posts, they will be included (prepended!) in the posts you retrieve whether you want it or not.
+ *                                  To suppress this behaviour use ignore_sticky_posts.
+ * post__not_in        : (array)  - use post ids. Specify post NOT to retrieve.
+ */
+}${1:'p'                      => ${2:190},
+}${3:'name'                   => ${4:'${5:post_slug}'},
+}${6:'post_parent'            => ${7:0},
+}${8:'post_parent__in'        => ${9:array( ${10:1, 2, 3} )},
+}${11:'post_parent__not_in'    => ${12:array( ${13:1, 2, 3} )},
+}${14:'post__in'               => ${15:array( ${16:1, 2, 3} )},}${17:
+'post__not_in'           => ${18:array( ${19:1, 2, 3} )},}
+]]></content>
+	<description>WP Template: Post Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-post</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

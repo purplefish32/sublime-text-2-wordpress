@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[${3:/**
+ * Orderby Parameters
+ *
+ * Sort retrieved posts.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters
+ *
+ * orderby : (string|array) - Sort retrieved posts by parameter.
+ *                            Defaults to 'date (post_date)'. One or more options can be passed.
+ *
+ *                            'none'           : No order (available with Version 2.8).
+ *                            'ID'             : Order by post id. Note the capitalization.
+ *                            'author'         : Order by author.
+ *                            'title'          : Order by title.
+ *                            'name'           : Order by post name (post slug).
+ *                            'type'           : Order by post type (available since Version 4.0).
+ *                            'date'           : Order by date.
+ *                            'modified'       : Order by last modified date.
+ *                            'parent'         : Order by post/page parent id.
+ *                            'rand'           : Random order.
+ *                            'comment_count'  : Order by number of comments (available with Version 2.9).
+ *                            'menu_order'     : Order by Page Order.
+ *                                               Used most often for Pages (Order field in the Edit Page Attributes box)
+ *                                               and for Attachments (the integer fields in the Insert/Upload Media Gallery dialog),
+ *                                               but could be used for any post type with distinct 'menu_order' values (they all default to 0).
+ *                            'meta_value'     : Note that a 'meta_key=keyname' must also be present in the query.
+ *                                               Note also that the sorting will be alphabetical which is fine for strings (i.e. words),
+ *                                               but can be unexpected for numbers (e.g. 1, 3, 34, 4, 56, 6, etc, rather than 1, 3, 4, 6, 34, 56 as you might naturally expect).
+ *                                               Use 'meta_value_num' instead for numeric values.
+ *                                               You may also specify 'meta_type' if you want to cast the meta value as a specific type.
+ *                                               Possible values 'NUMERIC', 'BINARY', 'CHAR', 'DATE', 'DATETIME', 'DECIMAL', 'SIGNED', 'TIME', 'UNSIGNED', same as in '\$meta_query'.
+ *                            'meta_value_num' : Order by numeric meta value (available with Version 2.8).
+ *                                               Also note that a 'meta_key=keyname' must also be present in the query.
+ *                                               This value allows for numerical sorting as noted above in 'meta_value'.
+ *                            'post__in'       : Preserve post ID order given in the post__in array (available with Version 3.5).
+ */
+}'orderby'                  => ${1:'${2:date}'},
+]]></content>
+	<description>WP Template: Orderby Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-orderby</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>
