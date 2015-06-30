@@ -56,11 +56,20 @@ Defaults Themes Versions:
 
 ### Snippets
 
-In the process, there are now those of the original package
+Use wp-? for view completions
+
+Use ctrl+space for call completions if tag <?php not is defined.
+e.g. for create plugin header in empty file.
 
 ### Tips
 
 Tested on Sublime Text v3092
+
+If use Sublime Text before v3092 is possible what some snippet not working.
+
+### Wiki
+
+Comming Soon...
 
 
 ###  Install instructions
