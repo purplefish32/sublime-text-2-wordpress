@@ -77,8 +77,6 @@ Comming Soon...
 - Remove or Disabled original package
 - Add repository via Package Control: Add Repository
 
-### Issues & Featured Requests
+### Issues
 
 You found some issue, please create an issue to solve it.
-
-Snippets of time are not updated, but will be updated, removing or adding (if considered appropriate any user can create a featured request to add)
