@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "0 WordPress Capabilities",
+    "comment": "57 WordPress Capabilities",
     "completions": [
         {
             "trigger": "switch_themes\tWP Capability",
