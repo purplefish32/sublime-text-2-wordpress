@@ -3,6 +3,18 @@
     "comment": "245 WordPress Classes",
     "completions": [
         {
+            "trigger": "_WP_Dependency\\tWP Class",
+            "contents": "_WP_Dependency"
+        },
+        {
+            "trigger": "_WP_Editors\\tWP Class",
+            "contents": "_WP_Editors"
+        },
+        {
+            "trigger": "_WP_List_Table_Compat\\tWP Class",
+            "contents": "_WP_List_Table_Compat"
+        },
+        {
             "trigger": "Akismet\\tWP Class",
             "contents": "Akismet"
         },
@@ -383,12 +395,12 @@
             "contents": "SimplePie_Net_IPv6"
         },
         {
-            "trigger": "SimplePie_Parser\\tWP Class",
-            "contents": "SimplePie_Parser"
-        },
-        {
             "trigger": "SimplePie_Parse_Date\\tWP Class",
             "contents": "SimplePie_Parse_Date"
+        },
+        {
+            "trigger": "SimplePie_Parser\\tWP Class",
+            "contents": "SimplePie_Parser"
         },
         {
             "trigger": "SimplePie_Rating\\tWP Class",
@@ -487,12 +499,12 @@
             "contents": "Theme_Upgrader_Skin"
         },
         {
-            "trigger": "Translations\\tWP Class",
-            "contents": "Translations"
-        },
-        {
             "trigger": "Translation_Entry\\tWP Class",
             "contents": "Translation_Entry"
+        },
+        {
+            "trigger": "Translations\\tWP Class",
+            "contents": "Translations"
         },
         {
             "trigger": "Twenty_Eleven_Ephemera_Widget\\tWP Class",
@@ -511,12 +523,12 @@
             "contents": "Walker_Category"
         },
         {
-            "trigger": "Walker_CategoryDropdown\\tWP Class",
-            "contents": "Walker_CategoryDropdown"
-        },
-        {
             "trigger": "Walker_Category_Checklist\\tWP Class",
             "contents": "Walker_Category_Checklist"
+        },
+        {
+            "trigger": "Walker_CategoryDropdown\\tWP Class",
+            "contents": "Walker_CategoryDropdown"
         },
         {
             "trigger": "Walker_Comment\\tWP Class",
@@ -547,10 +559,6 @@
             "contents": "WP"
         },
         {
-            "trigger": "wpdb\\tWP Class",
-            "contents": "wpdb"
-        },
-        {
             "trigger": "WP_Admin_Bar\\tWP Class",
             "contents": "WP_Admin_Bar"
         },
@@ -563,12 +571,12 @@
             "contents": "WP_Automatic_Updater"
         },
         {
-            "trigger": "WP_Comments_List_Table\\tWP Class",
-            "contents": "WP_Comments_List_Table"
-        },
-        {
             "trigger": "WP_Comment_Query\\tWP Class",
             "contents": "WP_Comment_Query"
+        },
+        {
+            "trigger": "WP_Comments_List_Table\\tWP Class",
+            "contents": "WP_Comments_List_Table"
         },
         {
             "trigger": "WP_Customize_Background_Image_Control\\tWP Class",
@@ -627,12 +635,12 @@
             "contents": "WP_Customize_Sidebar_Section"
         },
         {
-            "trigger": "WP_Customize_Themes_Section\\tWP Class",
-            "contents": "WP_Customize_Themes_Section"
-        },
-        {
             "trigger": "WP_Customize_Theme_Control\\tWP Class",
             "contents": "WP_Customize_Theme_Control"
+        },
+        {
+            "trigger": "WP_Customize_Themes_Section\\tWP Class",
+            "contents": "WP_Customize_Themes_Section"
         },
         {
             "trigger": "WP_Customize_Upload_Control\\tWP Class",
@@ -787,24 +795,24 @@
             "contents": "WP_oEmbed"
         },
         {
-            "trigger": "WP_Plugins_List_Table\\tWP Class",
-            "contents": "WP_Plugins_List_Table"
-        },
-        {
             "trigger": "WP_Plugin_Install_List_Table\\tWP Class",
             "contents": "WP_Plugin_Install_List_Table"
+        },
+        {
+            "trigger": "WP_Plugins_List_Table\\tWP Class",
+            "contents": "WP_Plugins_List_Table"
         },
         {
             "trigger": "WP_Post\\tWP Class",
             "contents": "WP_Post"
         },
         {
-            "trigger": "WP_Posts_List_Table\\tWP Class",
-            "contents": "WP_Posts_List_Table"
-        },
-        {
             "trigger": "WP_Post_Comments_List_Table\\tWP Class",
             "contents": "WP_Post_Comments_List_Table"
+        },
+        {
+            "trigger": "WP_Posts_List_Table\\tWP Class",
+            "contents": "WP_Posts_List_Table"
         },
         {
             "trigger": "WP_Press_This\\tWP Class",
@@ -871,12 +879,12 @@
             "contents": "WP_Theme"
         },
         {
-            "trigger": "WP_Themes_List_Table\\tWP Class",
-            "contents": "WP_Themes_List_Table"
-        },
-        {
             "trigger": "WP_Theme_Install_List_Table\\tWP Class",
             "contents": "WP_Theme_Install_List_Table"
+        },
+        {
+            "trigger": "WP_Themes_List_Table\\tWP Class",
+            "contents": "WP_Themes_List_Table"
         },
         {
             "trigger": "WP_Upgrader\\tWP Class",
@@ -891,16 +899,16 @@
             "contents": "WP_User"
         },
         {
-            "trigger": "WP_Users_List_Table\\tWP Class",
-            "contents": "WP_Users_List_Table"
-        },
-        {
             "trigger": "WP_User_Meta_Session_Tokens\\tWP Class",
             "contents": "WP_User_Meta_Session_Tokens"
         },
         {
             "trigger": "WP_User_Query\\tWP Class",
             "contents": "WP_User_Query"
+        },
+        {
+            "trigger": "WP_Users_List_Table\\tWP Class",
+            "contents": "WP_Users_List_Table"
         },
         {
             "trigger": "WP_Widget\\tWP Class",
@@ -971,16 +979,8 @@
             "contents": "wp_xmlrpc_server"
         },
         {
-            "trigger": "_WP_Dependency\\tWP Class",
-            "contents": "_WP_Dependency"
-        },
-        {
-            "trigger": "_WP_Editors\\tWP Class",
-            "contents": "_WP_Editors"
-        },
-        {
-            "trigger": "_WP_List_Table_Compat\\tWP Class",
-            "contents": "_WP_List_Table_Compat"
+            "trigger": "wpdb\\tWP Class",
+            "contents": "wpdb"
         }
     ]
 }

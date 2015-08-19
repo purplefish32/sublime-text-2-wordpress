@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "502 WordPress Constants",
+    "comment": "504 WordPress Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -9,14 +9,6 @@
         {
             "trigger": "ADMIN_COOKIE_PATH\tWP Constant",
             "contents": "ADMIN_COOKIE_PATH"
-        },
-        {
-            "trigger": "AKISMET_DELETE_LIMIT\tWP Constant",
-            "contents": "AKISMET_DELETE_LIMIT"
-        },
-        {
-            "trigger": "AKISMET_VERSION\tWP Constant",
-            "contents": "AKISMET_VERSION"
         },
         {
             "trigger": "AKISMET__MINIMUM_WP_VERSION\tWP Constant",
@@ -31,12 +23,24 @@
             "contents": "AKISMET__PLUGIN_URL"
         },
         {
+            "trigger": "AKISMET_DELETE_LIMIT\tWP Constant",
+            "contents": "AKISMET_DELETE_LIMIT"
+        },
+        {
+            "trigger": "AKISMET_VERSION\tWP Constant",
+            "contents": "AKISMET_VERSION"
+        },
+        {
             "trigger": "ARRAY_A\tWP Constant",
             "contents": "ARRAY_A"
         },
         {
             "trigger": "ARRAY_N\tWP Constant",
             "contents": "ARRAY_N"
+        },
+        {
+            "trigger": "ATOM\tWP Constant",
+            "contents": "ATOM"
         },
         {
             "trigger": "ATOM\tWP Constant",
@@ -75,16 +79,16 @@
             "contents": "COMMENTS_TEMPLATE"
         },
         {
+            "trigger": "COOKIE_DOMAIN\tWP Constant",
+            "contents": "COOKIE_DOMAIN"
+        },
+        {
             "trigger": "COOKIEHASH\tWP Constant",
             "contents": "COOKIEHASH"
         },
         {
             "trigger": "COOKIEPATH\tWP Constant",
             "contents": "COOKIEPATH"
-        },
-        {
-            "trigger": "COOKIE_DOMAIN\tWP Constant",
-            "contents": "COOKIE_DOMAIN"
         },
         {
             "trigger": "CRLF\tWP Constant",
@@ -1183,12 +1187,12 @@
             "contents": "MAGPIE_INITALIZED"
         },
         {
-            "trigger": "MAGPIE_USER_AGENT\tWP Constant",
-            "contents": "MAGPIE_USER_AGENT"
-        },
-        {
             "trigger": "MAGPIE_USE_GZIP\tWP Constant",
             "contents": "MAGPIE_USE_GZIP"
+        },
+        {
+            "trigger": "MAGPIE_USER_AGENT\tWP Constant",
+            "contents": "MAGPIE_USER_AGENT"
         },
         {
             "trigger": "MEDIA_TRASH\tWP Constant",
@@ -1207,16 +1211,16 @@
             "contents": "MUPLUGINDIR"
         },
         {
+            "trigger": "NO_HEADER_TEXT\tWP Constant",
+            "contents": "NO_HEADER_TEXT"
+        },
+        {
             "trigger": "NONCE_KEY\tWP Constant",
             "contents": "NONCE_KEY"
         },
         {
             "trigger": "NONCE_SALT\tWP Constant",
             "contents": "NONCE_SALT"
-        },
-        {
-            "trigger": "NO_HEADER_TEXT\tWP Constant",
-            "contents": "NO_HEADER_TEXT"
         },
         {
             "trigger": "OBJECT\tWP Constant",
@@ -1271,10 +1275,6 @@
             "contents": "PCLZIP_CB_PRE_EXTRACT"
         },
         {
-            "trigger": "PCLZIP_ERROR_EXTERNAL\tWP Constant",
-            "contents": "PCLZIP_ERROR_EXTERNAL"
-        },
-        {
             "trigger": "PCLZIP_ERR_ALREADY_A_DIRECTORY\tWP Constant",
             "contents": "PCLZIP_ERR_ALREADY_A_DIRECTORY"
         },
@@ -1299,12 +1299,12 @@
             "contents": "PCLZIP_ERR_DELETE_FILE_FAIL"
         },
         {
-            "trigger": "PCLZIP_ERR_DIRECTORY_RESTRICTION\tWP Constant",
-            "contents": "PCLZIP_ERR_DIRECTORY_RESTRICTION"
-        },
-        {
             "trigger": "PCLZIP_ERR_DIR_CREATE_FAIL\tWP Constant",
             "contents": "PCLZIP_ERR_DIR_CREATE_FAIL"
+        },
+        {
+            "trigger": "PCLZIP_ERR_DIRECTORY_RESTRICTION\tWP Constant",
+            "contents": "PCLZIP_ERR_DIRECTORY_RESTRICTION"
         },
         {
             "trigger": "PCLZIP_ERR_FILENAME_TOO_LONG\tWP Constant",
@@ -1365,6 +1365,10 @@
         {
             "trigger": "PCLZIP_ERR_WRITE_OPEN_FAIL\tWP Constant",
             "contents": "PCLZIP_ERR_WRITE_OPEN_FAIL"
+        },
+        {
+            "trigger": "PCLZIP_ERROR_EXTERNAL\tWP Constant",
+            "contents": "PCLZIP_ERROR_EXTERNAL"
         },
         {
             "trigger": "PCLZIP_OPT_ADD_COMMENT\tWP Constant",
@@ -1493,6 +1497,10 @@
         {
             "trigger": "PO_MAX_LINE_LEN\tWP Constant",
             "contents": "PO_MAX_LINE_LEN"
+        },
+        {
+            "trigger": "RSS\tWP Constant",
+            "contents": "RSS"
         },
         {
             "trigger": "RSS\tWP Constant",
@@ -1871,26 +1879,6 @@
             "contents": "WEEK_IN_SECONDS"
         },
         {
-            "trigger": "WPINC\tWP Constant",
-            "contents": "WPINC"
-        },
-        {
-            "trigger": "WPMU_ACCEL_REDIRECT\tWP Constant",
-            "contents": "WPMU_ACCEL_REDIRECT"
-        },
-        {
-            "trigger": "WPMU_PLUGIN_DIR\tWP Constant",
-            "contents": "WPMU_PLUGIN_DIR"
-        },
-        {
-            "trigger": "WPMU_PLUGIN_URL\tWP Constant",
-            "contents": "WPMU_PLUGIN_URL"
-        },
-        {
-            "trigger": "WPMU_SENDFILE\tWP Constant",
-            "contents": "WPMU_SENDFILE"
-        },
-        {
             "trigger": "WP_ADMIN\tWP Constant",
             "contents": "WP_ADMIN"
         },
@@ -1991,12 +1979,32 @@
             "contents": "WP_UNINSTALL_PLUGIN"
         },
         {
+            "trigger": "WP_USE_THEMES\tWP Constant",
+            "contents": "WP_USE_THEMES"
+        },
+        {
             "trigger": "WP_USER_ADMIN\tWP Constant",
             "contents": "WP_USER_ADMIN"
         },
         {
-            "trigger": "WP_USE_THEMES\tWP Constant",
-            "contents": "WP_USE_THEMES"
+            "trigger": "WPINC\tWP Constant",
+            "contents": "WPINC"
+        },
+        {
+            "trigger": "WPMU_ACCEL_REDIRECT\tWP Constant",
+            "contents": "WPMU_ACCEL_REDIRECT"
+        },
+        {
+            "trigger": "WPMU_PLUGIN_DIR\tWP Constant",
+            "contents": "WPMU_PLUGIN_DIR"
+        },
+        {
+            "trigger": "WPMU_PLUGIN_URL\tWP Constant",
+            "contents": "WPMU_PLUGIN_URL"
+        },
+        {
+            "trigger": "WPMU_SENDFILE\tWP Constant",
+            "contents": "WPMU_SENDFILE"
         },
         {
             "trigger": "WXR_VERSION\tWP Constant",
