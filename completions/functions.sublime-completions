@@ -4900,15 +4900,15 @@
         },
         {
             "trigger": "plugin_basename\tWP Function",
-            "contents": "plugin_basename( ${1:\\__FILE__} );"
+            "contents": "plugin_basename( ${1:__FILE__} );"
         },
         {
             "trigger": "plugin_dir_path\tWP Function",
-            "contents": "plugin_dir_path( ${1:\\__FILE__} );"
+            "contents": "plugin_dir_path( ${1:__FILE__} );"
         },
         {
             "trigger": "plugin_dir_url\tWP Function",
-            "contents": "plugin_dir_url( ${1:\\__FILE__} );"
+            "contents": "plugin_dir_url( ${1:__FILE__} );"
         },
         {
             "trigger": "plugin_sandbox_scrape\tWP Function",
