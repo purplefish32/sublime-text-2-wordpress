@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[${1:<?php
+}/**
+${2: * [Short Description]
+ *
+}${3: * [Long Description.]
+ *
+}${4: * @since ${5:[1.0]}
+ *
+}${6: * @package ${7:[package Name]}
+${8: * @subpackage ${9:[subpackage Name]}
+}} */
+${10:?>}
+]]></content>
+    <description>WP Template: PHPDoc Header</description>
+	<tabTrigger>wp-phpdoc</tabTrigger>
+	<scope>embedding.php</scope>
+</snippet>

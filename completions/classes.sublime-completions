@@ -1,0 +1,986 @@
+{
+    "scope": "source.php - variable.other.php",
+    "comment": "245 WordPress Classes",
+    "completions": [
+        {
+            "trigger": "_WP_Dependency\\tWP Class",
+            "contents": "_WP_Dependency"
+        },
+        {
+            "trigger": "_WP_Editors\\tWP Class",
+            "contents": "_WP_Editors"
+        },
+        {
+            "trigger": "_WP_List_Table_Compat\\tWP Class",
+            "contents": "_WP_List_Table_Compat"
+        },
+        {
+            "trigger": "Akismet\\tWP Class",
+            "contents": "Akismet"
+        },
+        {
+            "trigger": "Akismet_Admin\\tWP Class",
+            "contents": "Akismet_Admin"
+        },
+        {
+            "trigger": "Akismet_Widget\\tWP Class",
+            "contents": "Akismet_Widget"
+        },
+        {
+            "trigger": "AMFReader\\tWP Class",
+            "contents": "AMFReader"
+        },
+        {
+            "trigger": "AMFStream\\tWP Class",
+            "contents": "AMFStream"
+        },
+        {
+            "trigger": "AtomEntry\\tWP Class",
+            "contents": "AtomEntry"
+        },
+        {
+            "trigger": "AtomFeed\\tWP Class",
+            "contents": "AtomFeed"
+        },
+        {
+            "trigger": "AtomParser\\tWP Class",
+            "contents": "AtomParser"
+        },
+        {
+            "trigger": "Automatic_Upgrader_Skin\\tWP Class",
+            "contents": "Automatic_Upgrader_Skin"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader\\tWP Class",
+            "contents": "AVCSequenceParameterSetReader"
+        },
+        {
+            "trigger": "Bulk_Plugin_Upgrader_Skin\\tWP Class",
+            "contents": "Bulk_Plugin_Upgrader_Skin"
+        },
+        {
+            "trigger": "Bulk_Theme_Upgrader_Skin\\tWP Class",
+            "contents": "Bulk_Theme_Upgrader_Skin"
+        },
+        {
+            "trigger": "Bulk_Upgrader_Skin\\tWP Class",
+            "contents": "Bulk_Upgrader_Skin"
+        },
+        {
+            "trigger": "Core_Upgrader\\tWP Class",
+            "contents": "Core_Upgrader"
+        },
+        {
+            "trigger": "Custom_Background\\tWP Class",
+            "contents": "Custom_Background"
+        },
+        {
+            "trigger": "Custom_Image_Header\\tWP Class",
+            "contents": "Custom_Image_Header"
+        },
+        {
+            "trigger": "Featured_Content\\tWP Class",
+            "contents": "Featured_Content"
+        },
+        {
+            "trigger": "File_Upload_Upgrader\\tWP Class",
+            "contents": "File_Upload_Upgrader"
+        },
+        {
+            "trigger": "ftp\\tWP Class",
+            "contents": "ftp"
+        },
+        {
+            "trigger": "ftp_base\\tWP Class",
+            "contents": "ftp_base"
+        },
+        {
+            "trigger": "getID3\\tWP Class",
+            "contents": "getID3"
+        },
+        {
+            "trigger": "getid3_ac3\\tWP Class",
+            "contents": "getid3_ac3"
+        },
+        {
+            "trigger": "getid3_apetag\\tWP Class",
+            "contents": "getid3_apetag"
+        },
+        {
+            "trigger": "getid3_asf\\tWP Class",
+            "contents": "getid3_asf"
+        },
+        {
+            "trigger": "getid3_dts\\tWP Class",
+            "contents": "getid3_dts"
+        },
+        {
+            "trigger": "getid3_exception\\tWP Class",
+            "contents": "getid3_exception"
+        },
+        {
+            "trigger": "getid3_flac\\tWP Class",
+            "contents": "getid3_flac"
+        },
+        {
+            "trigger": "getid3_flv\\tWP Class",
+            "contents": "getid3_flv"
+        },
+        {
+            "trigger": "getid3_handler\\tWP Class",
+            "contents": "getid3_handler"
+        },
+        {
+            "trigger": "getid3_id3v1\\tWP Class",
+            "contents": "getid3_id3v1"
+        },
+        {
+            "trigger": "getid3_id3v2\\tWP Class",
+            "contents": "getid3_id3v2"
+        },
+        {
+            "trigger": "getid3_lib\\tWP Class",
+            "contents": "getid3_lib"
+        },
+        {
+            "trigger": "getid3_lyrics3\\tWP Class",
+            "contents": "getid3_lyrics3"
+        },
+        {
+            "trigger": "getid3_matroska\\tWP Class",
+            "contents": "getid3_matroska"
+        },
+        {
+            "trigger": "getid3_mp3\\tWP Class",
+            "contents": "getid3_mp3"
+        },
+        {
+            "trigger": "getid3_ogg\\tWP Class",
+            "contents": "getid3_ogg"
+        },
+        {
+            "trigger": "getid3_quicktime\\tWP Class",
+            "contents": "getid3_quicktime"
+        },
+        {
+            "trigger": "getid3_riff\\tWP Class",
+            "contents": "getid3_riff"
+        },
+        {
+            "trigger": "Gettext_Translations\\tWP Class",
+            "contents": "Gettext_Translations"
+        },
+        {
+            "trigger": "IXR_Base64\\tWP Class",
+            "contents": "IXR_Base64"
+        },
+        {
+            "trigger": "IXR_Client\\tWP Class",
+            "contents": "IXR_Client"
+        },
+        {
+            "trigger": "IXR_ClientMulticall\\tWP Class",
+            "contents": "IXR_ClientMulticall"
+        },
+        {
+            "trigger": "IXR_Date\\tWP Class",
+            "contents": "IXR_Date"
+        },
+        {
+            "trigger": "IXR_Error\\tWP Class",
+            "contents": "IXR_Error"
+        },
+        {
+            "trigger": "IXR_IntrospectionServer\\tWP Class",
+            "contents": "IXR_IntrospectionServer"
+        },
+        {
+            "trigger": "IXR_Message\\tWP Class",
+            "contents": "IXR_Message"
+        },
+        {
+            "trigger": "IXR_Request\\tWP Class",
+            "contents": "IXR_Request"
+        },
+        {
+            "trigger": "IXR_Server\\tWP Class",
+            "contents": "IXR_Server"
+        },
+        {
+            "trigger": "IXR_Value\\tWP Class",
+            "contents": "IXR_Value"
+        },
+        {
+            "trigger": "Language_Pack_Upgrader\\tWP Class",
+            "contents": "Language_Pack_Upgrader"
+        },
+        {
+            "trigger": "Language_Pack_Upgrader_Skin\\tWP Class",
+            "contents": "Language_Pack_Upgrader_Skin"
+        },
+        {
+            "trigger": "MagpieRSS\\tWP Class",
+            "contents": "MagpieRSS"
+        },
+        {
+            "trigger": "MO\\tWP Class",
+            "contents": "MO"
+        },
+        {
+            "trigger": "NOOP_Translations\\tWP Class",
+            "contents": "NOOP_Translations"
+        },
+        {
+            "trigger": "PasswordHash\\tWP Class",
+            "contents": "PasswordHash"
+        },
+        {
+            "trigger": "PclZip\\tWP Class",
+            "contents": "PclZip"
+        },
+        {
+            "trigger": "PHPMailer\\tWP Class",
+            "contents": "PHPMailer"
+        },
+        {
+            "trigger": "phpmailerException\\tWP Class",
+            "contents": "phpmailerException"
+        },
+        {
+            "trigger": "Plugin_Installer_Skin\\tWP Class",
+            "contents": "Plugin_Installer_Skin"
+        },
+        {
+            "trigger": "Plugin_Upgrader\\tWP Class",
+            "contents": "Plugin_Upgrader"
+        },
+        {
+            "trigger": "Plugin_Upgrader_Skin\\tWP Class",
+            "contents": "Plugin_Upgrader_Skin"
+        },
+        {
+            "trigger": "PO\\tWP Class",
+            "contents": "PO"
+        },
+        {
+            "trigger": "POMO_CachedFileReader\\tWP Class",
+            "contents": "POMO_CachedFileReader"
+        },
+        {
+            "trigger": "POMO_CachedIntFileReader\\tWP Class",
+            "contents": "POMO_CachedIntFileReader"
+        },
+        {
+            "trigger": "POMO_FileReader\\tWP Class",
+            "contents": "POMO_FileReader"
+        },
+        {
+            "trigger": "POMO_Reader\\tWP Class",
+            "contents": "POMO_Reader"
+        },
+        {
+            "trigger": "POMO_StringReader\\tWP Class",
+            "contents": "POMO_StringReader"
+        },
+        {
+            "trigger": "POP3\\tWP Class",
+            "contents": "POP3"
+        },
+        {
+            "trigger": "RSSCache\\tWP Class",
+            "contents": "RSSCache"
+        },
+        {
+            "trigger": "Services_JSON\\tWP Class",
+            "contents": "Services_JSON"
+        },
+        {
+            "trigger": "Services_JSON_Error\\tWP Class",
+            "contents": "Services_JSON_Error"
+        },
+        {
+            "trigger": "SimplePie\\tWP Class",
+            "contents": "SimplePie"
+        },
+        {
+            "trigger": "SimplePie_Author\\tWP Class",
+            "contents": "SimplePie_Author"
+        },
+        {
+            "trigger": "SimplePie_Cache\\tWP Class",
+            "contents": "SimplePie_Cache"
+        },
+        {
+            "trigger": "SimplePie_Cache_DB\\tWP Class",
+            "contents": "SimplePie_Cache_DB"
+        },
+        {
+            "trigger": "SimplePie_Cache_File\\tWP Class",
+            "contents": "SimplePie_Cache_File"
+        },
+        {
+            "trigger": "SimplePie_Cache_Memcache\\tWP Class",
+            "contents": "SimplePie_Cache_Memcache"
+        },
+        {
+            "trigger": "SimplePie_Cache_MySQL\\tWP Class",
+            "contents": "SimplePie_Cache_MySQL"
+        },
+        {
+            "trigger": "SimplePie_Caption\\tWP Class",
+            "contents": "SimplePie_Caption"
+        },
+        {
+            "trigger": "SimplePie_Category\\tWP Class",
+            "contents": "SimplePie_Category"
+        },
+        {
+            "trigger": "SimplePie_Content_Type_Sniffer\\tWP Class",
+            "contents": "SimplePie_Content_Type_Sniffer"
+        },
+        {
+            "trigger": "SimplePie_Copyright\\tWP Class",
+            "contents": "SimplePie_Copyright"
+        },
+        {
+            "trigger": "SimplePie_Core\\tWP Class",
+            "contents": "SimplePie_Core"
+        },
+        {
+            "trigger": "SimplePie_Credit\\tWP Class",
+            "contents": "SimplePie_Credit"
+        },
+        {
+            "trigger": "SimplePie_Decode_HTML_Entities\\tWP Class",
+            "contents": "SimplePie_Decode_HTML_Entities"
+        },
+        {
+            "trigger": "SimplePie_Enclosure\\tWP Class",
+            "contents": "SimplePie_Enclosure"
+        },
+        {
+            "trigger": "SimplePie_Exception\\tWP Class",
+            "contents": "SimplePie_Exception"
+        },
+        {
+            "trigger": "SimplePie_File\\tWP Class",
+            "contents": "SimplePie_File"
+        },
+        {
+            "trigger": "SimplePie_gzdecode\\tWP Class",
+            "contents": "SimplePie_gzdecode"
+        },
+        {
+            "trigger": "SimplePie_HTTP_Parser\\tWP Class",
+            "contents": "SimplePie_HTTP_Parser"
+        },
+        {
+            "trigger": "SimplePie_IRI\\tWP Class",
+            "contents": "SimplePie_IRI"
+        },
+        {
+            "trigger": "SimplePie_Item\\tWP Class",
+            "contents": "SimplePie_Item"
+        },
+        {
+            "trigger": "SimplePie_Locator\\tWP Class",
+            "contents": "SimplePie_Locator"
+        },
+        {
+            "trigger": "SimplePie_Misc\\tWP Class",
+            "contents": "SimplePie_Misc"
+        },
+        {
+            "trigger": "SimplePie_Net_IPv6\\tWP Class",
+            "contents": "SimplePie_Net_IPv6"
+        },
+        {
+            "trigger": "SimplePie_Parse_Date\\tWP Class",
+            "contents": "SimplePie_Parse_Date"
+        },
+        {
+            "trigger": "SimplePie_Parser\\tWP Class",
+            "contents": "SimplePie_Parser"
+        },
+        {
+            "trigger": "SimplePie_Rating\\tWP Class",
+            "contents": "SimplePie_Rating"
+        },
+        {
+            "trigger": "SimplePie_Registry\\tWP Class",
+            "contents": "SimplePie_Registry"
+        },
+        {
+            "trigger": "SimplePie_Restriction\\tWP Class",
+            "contents": "SimplePie_Restriction"
+        },
+        {
+            "trigger": "SimplePie_Sanitize\\tWP Class",
+            "contents": "SimplePie_Sanitize"
+        },
+        {
+            "trigger": "SimplePie_Source\\tWP Class",
+            "contents": "SimplePie_Source"
+        },
+        {
+            "trigger": "SimplePie_XML_Declaration_Parser\\tWP Class",
+            "contents": "SimplePie_XML_Declaration_Parser"
+        },
+        {
+            "trigger": "SMTP\\tWP Class",
+            "contents": "SMTP"
+        },
+        {
+            "trigger": "Snoopy\\tWP Class",
+            "contents": "Snoopy"
+        },
+        {
+            "trigger": "Text_Diff\\tWP Class",
+            "contents": "Text_Diff"
+        },
+        {
+            "trigger": "Text_Diff_Engine_native\\tWP Class",
+            "contents": "Text_Diff_Engine_native"
+        },
+        {
+            "trigger": "Text_Diff_Engine_shell\\tWP Class",
+            "contents": "Text_Diff_Engine_shell"
+        },
+        {
+            "trigger": "Text_Diff_Engine_string\\tWP Class",
+            "contents": "Text_Diff_Engine_string"
+        },
+        {
+            "trigger": "Text_Diff_Engine_xdiff\\tWP Class",
+            "contents": "Text_Diff_Engine_xdiff"
+        },
+        {
+            "trigger": "Text_Diff_Op\\tWP Class",
+            "contents": "Text_Diff_Op"
+        },
+        {
+            "trigger": "Text_Diff_Op_add\\tWP Class",
+            "contents": "Text_Diff_Op_add"
+        },
+        {
+            "trigger": "Text_Diff_Op_change\\tWP Class",
+            "contents": "Text_Diff_Op_change"
+        },
+        {
+            "trigger": "Text_Diff_Op_copy\\tWP Class",
+            "contents": "Text_Diff_Op_copy"
+        },
+        {
+            "trigger": "Text_Diff_Op_delete\\tWP Class",
+            "contents": "Text_Diff_Op_delete"
+        },
+        {
+            "trigger": "Text_Diff_Renderer\\tWP Class",
+            "contents": "Text_Diff_Renderer"
+        },
+        {
+            "trigger": "Text_Diff_Renderer_inline\\tWP Class",
+            "contents": "Text_Diff_Renderer_inline"
+        },
+        {
+            "trigger": "Text_MappedDiff\\tWP Class",
+            "contents": "Text_MappedDiff"
+        },
+        {
+            "trigger": "Theme_Installer_Skin\\tWP Class",
+            "contents": "Theme_Installer_Skin"
+        },
+        {
+            "trigger": "Theme_Upgrader\\tWP Class",
+            "contents": "Theme_Upgrader"
+        },
+        {
+            "trigger": "Theme_Upgrader_Skin\\tWP Class",
+            "contents": "Theme_Upgrader_Skin"
+        },
+        {
+            "trigger": "Translation_Entry\\tWP Class",
+            "contents": "Translation_Entry"
+        },
+        {
+            "trigger": "Translations\\tWP Class",
+            "contents": "Translations"
+        },
+        {
+            "trigger": "Twenty_Eleven_Ephemera_Widget\\tWP Class",
+            "contents": "Twenty_Eleven_Ephemera_Widget"
+        },
+        {
+            "trigger": "Twenty_Fourteen_Ephemera_Widget\\tWP Class",
+            "contents": "Twenty_Fourteen_Ephemera_Widget"
+        },
+        {
+            "trigger": "Walker\\tWP Class",
+            "contents": "Walker"
+        },
+        {
+            "trigger": "Walker_Category\\tWP Class",
+            "contents": "Walker_Category"
+        },
+        {
+            "trigger": "Walker_Category_Checklist\\tWP Class",
+            "contents": "Walker_Category_Checklist"
+        },
+        {
+            "trigger": "Walker_CategoryDropdown\\tWP Class",
+            "contents": "Walker_CategoryDropdown"
+        },
+        {
+            "trigger": "Walker_Comment\\tWP Class",
+            "contents": "Walker_Comment"
+        },
+        {
+            "trigger": "Walker_Nav_Menu\\tWP Class",
+            "contents": "Walker_Nav_Menu"
+        },
+        {
+            "trigger": "Walker_Nav_Menu_Checklist\\tWP Class",
+            "contents": "Walker_Nav_Menu_Checklist"
+        },
+        {
+            "trigger": "Walker_Nav_Menu_Edit\\tWP Class",
+            "contents": "Walker_Nav_Menu_Edit"
+        },
+        {
+            "trigger": "Walker_Page\\tWP Class",
+            "contents": "Walker_Page"
+        },
+        {
+            "trigger": "Walker_PageDropdown\\tWP Class",
+            "contents": "Walker_PageDropdown"
+        },
+        {
+            "trigger": "WP\\tWP Class",
+            "contents": "WP"
+        },
+        {
+            "trigger": "WP_Admin_Bar\\tWP Class",
+            "contents": "WP_Admin_Bar"
+        },
+        {
+            "trigger": "WP_Ajax_Response\\tWP Class",
+            "contents": "WP_Ajax_Response"
+        },
+        {
+            "trigger": "WP_Automatic_Updater\\tWP Class",
+            "contents": "WP_Automatic_Updater"
+        },
+        {
+            "trigger": "WP_Comment_Query\\tWP Class",
+            "contents": "WP_Comment_Query"
+        },
+        {
+            "trigger": "WP_Comments_List_Table\\tWP Class",
+            "contents": "WP_Comments_List_Table"
+        },
+        {
+            "trigger": "WP_Customize_Background_Image_Control\\tWP Class",
+            "contents": "WP_Customize_Background_Image_Control"
+        },
+        {
+            "trigger": "WP_Customize_Background_Image_Setting\\tWP Class",
+            "contents": "WP_Customize_Background_Image_Setting"
+        },
+        {
+            "trigger": "WP_Customize_Color_Control\\tWP Class",
+            "contents": "WP_Customize_Color_Control"
+        },
+        {
+            "trigger": "WP_Customize_Control\\tWP Class",
+            "contents": "WP_Customize_Control"
+        },
+        {
+            "trigger": "WP_Customize_Filter_Setting\\tWP Class",
+            "contents": "WP_Customize_Filter_Setting"
+        },
+        {
+            "trigger": "WP_Customize_Header_Image_Control\\tWP Class",
+            "contents": "WP_Customize_Header_Image_Control"
+        },
+        {
+            "trigger": "WP_Customize_Header_Image_Setting\\tWP Class",
+            "contents": "WP_Customize_Header_Image_Setting"
+        },
+        {
+            "trigger": "WP_Customize_Image_Control\\tWP Class",
+            "contents": "WP_Customize_Image_Control"
+        },
+        {
+            "trigger": "WP_Customize_Manager\\tWP Class",
+            "contents": "WP_Customize_Manager"
+        },
+        {
+            "trigger": "WP_Customize_Media_Control\\tWP Class",
+            "contents": "WP_Customize_Media_Control"
+        },
+        {
+            "trigger": "WP_Customize_Panel\\tWP Class",
+            "contents": "WP_Customize_Panel"
+        },
+        {
+            "trigger": "WP_Customize_Section\\tWP Class",
+            "contents": "WP_Customize_Section"
+        },
+        {
+            "trigger": "WP_Customize_Setting\\tWP Class",
+            "contents": "WP_Customize_Setting"
+        },
+        {
+            "trigger": "WP_Customize_Sidebar_Section\\tWP Class",
+            "contents": "WP_Customize_Sidebar_Section"
+        },
+        {
+            "trigger": "WP_Customize_Theme_Control\\tWP Class",
+            "contents": "WP_Customize_Theme_Control"
+        },
+        {
+            "trigger": "WP_Customize_Themes_Section\\tWP Class",
+            "contents": "WP_Customize_Themes_Section"
+        },
+        {
+            "trigger": "WP_Customize_Upload_Control\\tWP Class",
+            "contents": "WP_Customize_Upload_Control"
+        },
+        {
+            "trigger": "WP_Customize_Widgets\\tWP Class",
+            "contents": "WP_Customize_Widgets"
+        },
+        {
+            "trigger": "WP_Date_Query\\tWP Class",
+            "contents": "WP_Date_Query"
+        },
+        {
+            "trigger": "WP_Dependencies\\tWP Class",
+            "contents": "WP_Dependencies"
+        },
+        {
+            "trigger": "WP_Embed\\tWP Class",
+            "contents": "WP_Embed"
+        },
+        {
+            "trigger": "WP_Error\\tWP Class",
+            "contents": "WP_Error"
+        },
+        {
+            "trigger": "WP_Feed_Cache\\tWP Class",
+            "contents": "WP_Feed_Cache"
+        },
+        {
+            "trigger": "WP_Feed_Cache_Transient\\tWP Class",
+            "contents": "WP_Feed_Cache_Transient"
+        },
+        {
+            "trigger": "WP_Filesystem_Base\\tWP Class",
+            "contents": "WP_Filesystem_Base"
+        },
+        {
+            "trigger": "WP_Filesystem_Direct\\tWP Class",
+            "contents": "WP_Filesystem_Direct"
+        },
+        {
+            "trigger": "WP_Filesystem_FTPext\\tWP Class",
+            "contents": "WP_Filesystem_FTPext"
+        },
+        {
+            "trigger": "WP_Filesystem_ftpsockets\\tWP Class",
+            "contents": "WP_Filesystem_ftpsockets"
+        },
+        {
+            "trigger": "WP_Filesystem_SSH2\\tWP Class",
+            "contents": "WP_Filesystem_SSH2"
+        },
+        {
+            "trigger": "WP_Http\\tWP Class",
+            "contents": "WP_Http"
+        },
+        {
+            "trigger": "WP_Http_Cookie\\tWP Class",
+            "contents": "WP_Http_Cookie"
+        },
+        {
+            "trigger": "WP_Http_Curl\\tWP Class",
+            "contents": "WP_Http_Curl"
+        },
+        {
+            "trigger": "WP_Http_Encoding\\tWP Class",
+            "contents": "WP_Http_Encoding"
+        },
+        {
+            "trigger": "WP_HTTP_Fsockopen\\tWP Class",
+            "contents": "WP_HTTP_Fsockopen"
+        },
+        {
+            "trigger": "WP_HTTP_IXR_Client\\tWP Class",
+            "contents": "WP_HTTP_IXR_Client"
+        },
+        {
+            "trigger": "WP_HTTP_Proxy\\tWP Class",
+            "contents": "WP_HTTP_Proxy"
+        },
+        {
+            "trigger": "WP_Http_Streams\\tWP Class",
+            "contents": "WP_Http_Streams"
+        },
+        {
+            "trigger": "WP_Image_Editor\\tWP Class",
+            "contents": "WP_Image_Editor"
+        },
+        {
+            "trigger": "WP_Image_Editor_GD\\tWP Class",
+            "contents": "WP_Image_Editor_GD"
+        },
+        {
+            "trigger": "WP_Image_Editor_Imagick\\tWP Class",
+            "contents": "WP_Image_Editor_Imagick"
+        },
+        {
+            "trigger": "WP_Importer\\tWP Class",
+            "contents": "WP_Importer"
+        },
+        {
+            "trigger": "WP_Internal_Pointers\\tWP Class",
+            "contents": "WP_Internal_Pointers"
+        },
+        {
+            "trigger": "WP_Links_List_Table\\tWP Class",
+            "contents": "WP_Links_List_Table"
+        },
+        {
+            "trigger": "WP_List_Table\\tWP Class",
+            "contents": "WP_List_Table"
+        },
+        {
+            "trigger": "WP_Locale\\tWP Class",
+            "contents": "WP_Locale"
+        },
+        {
+            "trigger": "WP_MatchesMapRegex\\tWP Class",
+            "contents": "WP_MatchesMapRegex"
+        },
+        {
+            "trigger": "WP_Media_List_Table\\tWP Class",
+            "contents": "WP_Media_List_Table"
+        },
+        {
+            "trigger": "WP_Meta_Query\\tWP Class",
+            "contents": "WP_Meta_Query"
+        },
+        {
+            "trigger": "WP_MS_Sites_List_Table\\tWP Class",
+            "contents": "WP_MS_Sites_List_Table"
+        },
+        {
+            "trigger": "WP_MS_Themes_List_Table\\tWP Class",
+            "contents": "WP_MS_Themes_List_Table"
+        },
+        {
+            "trigger": "WP_MS_Users_List_Table\\tWP Class",
+            "contents": "WP_MS_Users_List_Table"
+        },
+        {
+            "trigger": "WP_Nav_Menu_Widget\\tWP Class",
+            "contents": "WP_Nav_Menu_Widget"
+        },
+        {
+            "trigger": "WP_Object_Cache\\tWP Class",
+            "contents": "WP_Object_Cache"
+        },
+        {
+            "trigger": "WP_oEmbed\\tWP Class",
+            "contents": "WP_oEmbed"
+        },
+        {
+            "trigger": "WP_Plugin_Install_List_Table\\tWP Class",
+            "contents": "WP_Plugin_Install_List_Table"
+        },
+        {
+            "trigger": "WP_Plugins_List_Table\\tWP Class",
+            "contents": "WP_Plugins_List_Table"
+        },
+        {
+            "trigger": "WP_Post\\tWP Class",
+            "contents": "WP_Post"
+        },
+        {
+            "trigger": "WP_Post_Comments_List_Table\\tWP Class",
+            "contents": "WP_Post_Comments_List_Table"
+        },
+        {
+            "trigger": "WP_Posts_List_Table\\tWP Class",
+            "contents": "WP_Posts_List_Table"
+        },
+        {
+            "trigger": "WP_Press_This\\tWP Class",
+            "contents": "WP_Press_This"
+        },
+        {
+            "trigger": "WP_Query\\tWP Class",
+            "contents": "WP_Query"
+        },
+        {
+            "trigger": "WP_Rewrite\\tWP Class",
+            "contents": "WP_Rewrite"
+        },
+        {
+            "trigger": "WP_Role\\tWP Class",
+            "contents": "WP_Role"
+        },
+        {
+            "trigger": "WP_Roles\\tWP Class",
+            "contents": "WP_Roles"
+        },
+        {
+            "trigger": "WP_Screen\\tWP Class",
+            "contents": "WP_Screen"
+        },
+        {
+            "trigger": "WP_Scripts\\tWP Class",
+            "contents": "WP_Scripts"
+        },
+        {
+            "trigger": "WP_Session_Tokens\\tWP Class",
+            "contents": "WP_Session_Tokens"
+        },
+        {
+            "trigger": "WP_SimplePie_File\\tWP Class",
+            "contents": "WP_SimplePie_File"
+        },
+        {
+            "trigger": "WP_SimplePie_Sanitize_KSES\\tWP Class",
+            "contents": "WP_SimplePie_Sanitize_KSES"
+        },
+        {
+            "trigger": "WP_Styles\\tWP Class",
+            "contents": "WP_Styles"
+        },
+        {
+            "trigger": "WP_Tax_Query\\tWP Class",
+            "contents": "WP_Tax_Query"
+        },
+        {
+            "trigger": "WP_Terms_List_Table\\tWP Class",
+            "contents": "WP_Terms_List_Table"
+        },
+        {
+            "trigger": "WP_Text_Diff_Renderer_inline\\tWP Class",
+            "contents": "WP_Text_Diff_Renderer_inline"
+        },
+        {
+            "trigger": "WP_Text_Diff_Renderer_Table\\tWP Class",
+            "contents": "WP_Text_Diff_Renderer_Table"
+        },
+        {
+            "trigger": "WP_Theme\\tWP Class",
+            "contents": "WP_Theme"
+        },
+        {
+            "trigger": "WP_Theme_Install_List_Table\\tWP Class",
+            "contents": "WP_Theme_Install_List_Table"
+        },
+        {
+            "trigger": "WP_Themes_List_Table\\tWP Class",
+            "contents": "WP_Themes_List_Table"
+        },
+        {
+            "trigger": "WP_Upgrader\\tWP Class",
+            "contents": "WP_Upgrader"
+        },
+        {
+            "trigger": "WP_Upgrader_Skin\\tWP Class",
+            "contents": "WP_Upgrader_Skin"
+        },
+        {
+            "trigger": "WP_User\\tWP Class",
+            "contents": "WP_User"
+        },
+        {
+            "trigger": "WP_User_Meta_Session_Tokens\\tWP Class",
+            "contents": "WP_User_Meta_Session_Tokens"
+        },
+        {
+            "trigger": "WP_User_Query\\tWP Class",
+            "contents": "WP_User_Query"
+        },
+        {
+            "trigger": "WP_Users_List_Table\\tWP Class",
+            "contents": "WP_Users_List_Table"
+        },
+        {
+            "trigger": "WP_Widget\\tWP Class",
+            "contents": "WP_Widget"
+        },
+        {
+            "trigger": "WP_Widget_Archives\\tWP Class",
+            "contents": "WP_Widget_Archives"
+        },
+        {
+            "trigger": "WP_Widget_Area_Customize_Control\\tWP Class",
+            "contents": "WP_Widget_Area_Customize_Control"
+        },
+        {
+            "trigger": "WP_Widget_Calendar\\tWP Class",
+            "contents": "WP_Widget_Calendar"
+        },
+        {
+            "trigger": "WP_Widget_Categories\\tWP Class",
+            "contents": "WP_Widget_Categories"
+        },
+        {
+            "trigger": "WP_Widget_Factory\\tWP Class",
+            "contents": "WP_Widget_Factory"
+        },
+        {
+            "trigger": "WP_Widget_Form_Customize_Control\\tWP Class",
+            "contents": "WP_Widget_Form_Customize_Control"
+        },
+        {
+            "trigger": "WP_Widget_Links\\tWP Class",
+            "contents": "WP_Widget_Links"
+        },
+        {
+            "trigger": "WP_Widget_Meta\\tWP Class",
+            "contents": "WP_Widget_Meta"
+        },
+        {
+            "trigger": "WP_Widget_Pages\\tWP Class",
+            "contents": "WP_Widget_Pages"
+        },
+        {
+            "trigger": "WP_Widget_Recent_Comments\\tWP Class",
+            "contents": "WP_Widget_Recent_Comments"
+        },
+        {
+            "trigger": "WP_Widget_Recent_Posts\\tWP Class",
+            "contents": "WP_Widget_Recent_Posts"
+        },
+        {
+            "trigger": "WP_Widget_RSS\\tWP Class",
+            "contents": "WP_Widget_RSS"
+        },
+        {
+            "trigger": "WP_Widget_Search\\tWP Class",
+            "contents": "WP_Widget_Search"
+        },
+        {
+            "trigger": "WP_Widget_Tag_Cloud\\tWP Class",
+            "contents": "WP_Widget_Tag_Cloud"
+        },
+        {
+            "trigger": "WP_Widget_Text\\tWP Class",
+            "contents": "WP_Widget_Text"
+        },
+        {
+            "trigger": "wp_xmlrpc_server\\tWP Class",
+            "contents": "wp_xmlrpc_server"
+        },
+        {
+            "trigger": "wpdb\\tWP Class",
+            "contents": "wpdb"
+        }
+    ]
+}

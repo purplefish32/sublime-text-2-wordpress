@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[${3:/**
+ * Return Fields Parameter
+ *
+ * Set return values.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Return_Fields_Parameter
+ *
+ * fields : (string) - Which fields to return. All fields are returned by default.
+ *                     There are two other options:
+ *                       'ids'        : Return an array of post IDs.
+ *                       'id=>parent' : Return an array of stdClass objects with ID and post_parent properties.
+ *                       Passing anything else will return all fields (default) - an array of post objects.
+ */
+}'fields'                 => ${1:'${2:}'},
+]]></content>
+	<description>WP Template: Return Fields (AKA Fields) Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-fields</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>

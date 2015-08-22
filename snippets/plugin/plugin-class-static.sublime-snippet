@@ -1,0 +1,63 @@
+<snippet>
+	<content><![CDATA[${1:<?php
+}/**
+ * Plugin Name: ${2:Name}
+ * Description: ${3:Description}
+ * Plugin URI: http${4:...}
+ * Author: ${5:Author}
+ * Author URI: http${6:...}
+ * Version: ${7:1.0}
+ * License: ${8:GPL2 or later}
+ * License URI: ${9:https://www.gnu.org/licenses/gpl-2.0.html}
+${10: * Text Domain: ${11:Text Domain}
+}${12: * Domain Path: ${13:Domain Path}}${14:
+ * Network: ${15:false}}
+ */
+
+defined( 'ABSPATH' ) or exit;
+
+add_action( 'plugins_loaded', '${16:Plugin_Class_Name}::on_load' );
+register_activation_hook( __FILE__, '$16::do_activate' );
+register_deactivation_hook( __FILE__, '$16::do_deactivate' );
+${17:register_uninstall_hook( __FILE__, '$16::do_uninstall' );}
+
+if ( ! class_exists( '$16' ) ) :
+	class $16 \{
+
+		public static function on_load() \{
+			$0
+		\}
+
+		public static function do_activate( \$network_wide ) \{
+			if ( ! current_user_can( 'activate_plugins' ) )
+				return;
+
+			\$plugin = isset( \$_REQUEST['plugin'] ) ? \$_REQUEST['plugin'] : '';
+			check_admin_referer( "activate-plugin_\{\$plugin\}" );
+		}
+
+		public static function do_deactivate( \$network_wide ) \{
+			if ( ! current_user_can( 'activate_plugins' ) )
+				return;
+
+			\$plugin = isset( \$_REQUEST['plugin'] ) ? \$_REQUEST['plugin'] : '';
+			check_admin_referer( "deactivate-plugin_\{\$plugin\}" );
+		}${18:
+
+		public static function do_uninstall( \$network_wide ) \{
+			if ( ! current_user_can( 'activate_plugins' ) )
+				return;
+
+			check_admin_referer( 'bulk-plugins' );
+
+			if ( __FILE__ != WP_UNINSTALL_PLUGIN  )
+				return;
+		\}}
+	\}
+endif;
+
+]]></content>
+	<description>WP Template: Plugin Class Static</description>
+	<tabTrigger>wp-plugin-class-static</tabTrigger>
+	<scope>embedding.php</scope>
+</snippet>

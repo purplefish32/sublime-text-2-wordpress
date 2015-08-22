@@ -1,0 +1,234 @@
+{
+    "scope": "source.php - variable.other.php",
+    "comment": "57 WordPress Capabilities",
+    "completions": [
+        {
+            "trigger": "switch_themes\tWP Capability",
+            "contents": "switch_themes"
+        },
+        {
+            "trigger": "edit_themes\tWP Capability",
+            "contents": "edit_themes"
+        },
+        {
+            "trigger": "activate_plugins\tWP Capability",
+            "contents": "activate_plugins"
+        },
+        {
+            "trigger": "edit_plugins\tWP Capability",
+            "contents": "edit_plugins"
+        },
+        {
+            "trigger": "edit_users\tWP Capability",
+            "contents": "edit_users"
+        },
+        {
+            "trigger": "edit_files\tWP Capability",
+            "contents": "edit_files"
+        },
+        {
+            "trigger": "manage_options\tWP Capability",
+            "contents": "manage_options"
+        },
+        {
+            "trigger": "moderate_comments\tWP Capability",
+            "contents": "moderate_comments"
+        },
+        {
+            "trigger": "manage_categories\tWP Capability",
+            "contents": "manage_categories"
+        },
+        {
+            "trigger": "manage_links\tWP Capability",
+            "contents": "manage_links"
+        },
+        {
+            "trigger": "upload_files\tWP Capability",
+            "contents": "upload_files"
+        },
+        {
+            "trigger": "import\tWP Capability",
+            "contents": "import"
+        },
+        {
+            "trigger": "unfiltered_html\tWP Capability",
+            "contents": "unfiltered_html"
+        },
+        {
+            "trigger": "edit_posts\tWP Capability",
+            "contents": "edit_posts"
+        },
+        {
+            "trigger": "edit_others_posts\tWP Capability",
+            "contents": "edit_others_posts"
+        },
+        {
+            "trigger": "edit_published_posts\tWP Capability",
+            "contents": "edit_published_posts"
+        },
+        {
+            "trigger": "publish_posts\tWP Capability",
+            "contents": "publish_posts"
+        },
+        {
+            "trigger": "edit_pages\tWP Capability",
+            "contents": "edit_pages"
+        },
+        {
+            "trigger": "read\tWP Capability",
+            "contents": "read"
+        },
+        {
+            "trigger": "edit_others_pages\tWP Capability",
+            "contents": "edit_others_pages"
+        },
+        {
+            "trigger": "edit_published_pages\tWP Capability",
+            "contents": "edit_published_pages"
+        },
+        {
+            "trigger": "publish_pages\tWP Capability",
+            "contents": "publish_pages"
+        },
+        {
+            "trigger": "delete_pages\tWP Capability",
+            "contents": "delete_pages"
+        },
+        {
+            "trigger": "delete_others_pages\tWP Capability",
+            "contents": "delete_others_pages"
+        },
+        {
+            "trigger": "delete_published_pages\tWP Capability",
+            "contents": "delete_published_pages"
+        },
+        {
+            "trigger": "delete_posts\tWP Capability",
+            "contents": "delete_posts"
+        },
+        {
+            "trigger": "delete_others_posts\tWP Capability",
+            "contents": "delete_others_posts"
+        },
+        {
+            "trigger": "delete_published_posts\tWP Capability",
+            "contents": "delete_published_posts"
+        },
+        {
+            "trigger": "delete_private_posts\tWP Capability",
+            "contents": "delete_private_posts"
+        },
+        {
+            "trigger": "edit_private_posts\tWP Capability",
+            "contents": "edit_private_posts"
+        },
+        {
+            "trigger": "read_private_posts\tWP Capability",
+            "contents": "read_private_posts"
+        },
+        {
+            "trigger": "delete_private_pages\tWP Capability",
+            "contents": "delete_private_pages"
+        },
+        {
+            "trigger": "edit_private_pages\tWP Capability",
+            "contents": "edit_private_pages"
+        },
+        {
+            "trigger": "read_private_pages\tWP Capability",
+            "contents": "read_private_pages"
+        },
+        {
+            "trigger": "delete_users\tWP Capability",
+            "contents": "delete_users"
+        },
+        {
+            "trigger": "create_users\tWP Capability",
+            "contents": "create_users"
+        },
+        {
+            "trigger": "unfiltered_upload\tWP Capability",
+            "contents": "unfiltered_upload"
+        },
+        {
+            "trigger": "edit_dashboard\tWP Capability",
+            "contents": "edit_dashboard"
+        },
+        {
+            "trigger": "update_plugins\tWP Capability",
+            "contents": "update_plugins"
+        },
+        {
+            "trigger": "delete_plugins\tWP Capability",
+            "contents": "delete_plugins"
+        },
+        {
+            "trigger": "install_plugins\tWP Capability",
+            "contents": "install_plugins"
+        },
+        {
+            "trigger": "update_themes\tWP Capability",
+            "contents": "update_themes"
+        },
+        {
+            "trigger": "install_themes\tWP Capability",
+            "contents": "install_themes"
+        },
+        {
+            "trigger": "update_core\tWP Capability",
+            "contents": "update_core"
+        },
+        {
+            "trigger": "list_users\tWP Capability",
+            "contents": "list_users"
+        },
+        {
+            "trigger": "remove_users\tWP Capability",
+            "contents": "remove_users"
+        },
+        {
+            "trigger": "add_users\tWP Capability",
+            "contents": "add_users"
+        },
+        {
+            "trigger": "promote_users\tWP Capability",
+            "contents": "promote_users"
+        },
+        {
+            "trigger": "edit_theme_options\tWP Capability",
+            "contents": "edit_theme_options"
+        },
+        {
+            "trigger": "delete_themes\tWP Capability",
+            "contents": "delete_themes"
+        },
+        {
+            "trigger": "export\tWP Capability",
+            "contents": "export"
+        },
+        {
+            "trigger": "manage_network\tWP Capability",
+            "contents": "manage_network"
+        },
+        {
+            "trigger": "manage_sites\tWP Capability",
+            "contents": "manage_sites"
+        },
+        {
+            "trigger": "manage_network_users\tWP Capability",
+            "contents": "manage_network_users"
+        },
+        {
+            "trigger": "manage_network_plugins\tWP Capability",
+            "contents": "manage_network_plugins"
+        },
+        {
+            "trigger": "manage_network_themes\tWP Capability",
+            "contents": "manage_network_themes"
+        },
+        {
+            "trigger": "manage_network_options\tWP Capability",
+            "contents": "manage_network_options"
+        }
+    ]
+}

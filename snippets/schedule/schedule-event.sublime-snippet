@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[${8:/**
+ * \$timestamp   Aka 'time()'. The first time that you want the event to occur.
+ *               This must be in a UNIX timestamp format.
+ * \$recurrance  How often the event should reoccur.
+ *               Valid values: 'hourly', 'twicedaily' or 'daily'
+ * \$hook        The name of an action hook to execute.
+ * \$args        Optional. Arguments to pass to the hook's callback function.
+ */
+}if ( false === wp_next_scheduled( ${1:'${2:\$hook}'}${3:, ${4:\$args}} ) ) \{
+	wp_schedule_event( ${5:time()}, ${6:\$recurrance}, $1${7:, $4} );
+\}
+]]></content>
+	<description>WP Template: Scheduled Event if not exists</description>
+	<tabTrigger>wp-scheduled</tabTrigger>
+	<scope>embedding.php - variable.other.php</scope>
+</snippet>

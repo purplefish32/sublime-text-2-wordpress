@@ -1,0 +1,54 @@
+<snippet>
+	<content><![CDATA[${16:/**
+ * Custom Field Parameters
+ *
+ * Show posts associated with a certain custom field.
+ *
+ * This part of the query is parsed by WP_Meta_Query.
+ *
+ * @see https://codex.wordpress.org/Class_Reference/WP_Meta_Query
+ * @see https://codex.wordpress.org/Class_Reference/WP_Query#Custom_Field_Parameters
+ *
+ * meta_query     : (array)        - Custom field parameters (available with Version 3.1).
+ *     relation :  (string) - The logical relationship between each inner meta_query array when there is more than one.
+ *                            Possible values are 'AND', 'OR'.
+ *                            Do not use with a single inner meta_query array.
+ *
+ *         key     : (string)       - Custom field key.
+ *         value   : (string|array) - Custom field value.
+ *                                    It can be an array only when compare is 'IN', 'NOT IN', 'BETWEEN', or 'NOT BETWEEN'.
+ *                                    You don't have to specify a value when using the 'EXISTS' or 'NOT EXISTS' comparisons in WordPress 3.9 and up.
+ *                                    NOTE:
+ *                                    Due to bug http://core.trac.wordpress.org/ticket/23268,
+ *                                    value is required for NOT EXISTS comparisons to work correctly prior to 3.9.
+ *                                    You must supply some string for the value parameter.
+ *                                    An empty string or NULL will NOT work.
+ *                                    However, any other string will do the trick and will NOT show up in your SQL when using NOT EXISTS.
+ *                                    Need inspiration? How about 'bug #23268'.
+ *         compare : (string)       - Operator to test the 'value'. Default value is '='.
+ *                                    Possible values:
+ *                                      '=', '!=', '>', '>=', '<', '<='
+ *                                      'LIKE', 'NOT LIKE'
+ *                                      'IN', 'NOT IN'
+ *                                      'BETWEEN', 'NOT BETWEEN'
+ *                                      'EXISTS', 'NOT EXISTS' (only in WP >= 3.5)
+ *
+ *         type    : (string)       - Custom field type. Default value is 'CHAR'.
+ *                                    Possible values:
+ *                                      'NUMERIC', 'BINARY', 'CHAR', 'DATE', 'DATETIME', 'DECIMAL', 'SIGNED', 'TIME', 'UNSIGNED'
+ *
+ */
+}'meta_query'             => array(${1:
+	'relation' => ${2:'${3:AND}'},}
+	array(
+		${4:'key'     => ${5:'${6:custom_field_key}'},
+		}${7:'value'   => ${8:'${9:custom_field_value}'},
+		}${10:'compare' => ${11:'${12:=}'},}${13:
+		'type'    => ${14:'${15:CHAR}'},}
+	),
+),
+]]></content>
+	<description>WP Template: Meta with 'meta_query' Parameters for WP_Query</description>
+	<tabTrigger>wp-query-args-meta-query</tabTrigger>
+	<scope>source.php meta.array.php</scope>
+</snippet>
