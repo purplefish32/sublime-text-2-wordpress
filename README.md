@@ -1,14 +1,15 @@
-##Sublime Text 2 WordPress Package
+Sublime Text 3 WordPress Package
+---
 
-Sublime Text 2 WordPress Package is a collection of WordPress snippets and autocompletions for Sublime Text 2
+Sublime Text 3 WordPress Package is a collection of WordPress snippets and autocompletions for Sublime Text 2 or 3
 
 ### Features
 
 Autocomplete for:
 
-    WP version : 3.7.0
+    WP version : 4.8.1
 
-    Functions          : 1734
+    Functions          : 2909
     Hooks              : 1434
     Constants/Classes  :  191
 
@@ -27,11 +28,12 @@ Some updated snippets use the same name as the function, the autocomplete will s
 register a custom post type you would write `register_post...`. Please review the snippets `<tabTrigger>` to see how to call the rest.
 
 
-### Special thanks
+### Special thanks for updated scraping:
 
 Original TextMate author : [Gipetto](https://github.com/Gipetto/wordpress.tmbundle)  
 Original scraper : [@ericandrewlewis](https://github.com/purplefish32/sublime-text-2-wordpress-scraper )  
-Latest scraper :[@wycks](https://github.com/wycks/SublimeText-WordPress-Autocomplete)  
+Scraper :[@wycks](https://github.com/wycks/SublimeText-WordPress-Autocomplete)  
+Latest scraper :[@jtsternberg](https://github.com/jtsternberg/sublime-text-3-wordpress/)  
 
 ### Tip
 
