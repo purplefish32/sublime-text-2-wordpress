@@ -2911,6 +2911,6 @@
 		{"trigger": "wp_list_widget_controls_dynamic_sidebar", "contents": "wp_list_widget_controls_dynamic_sidebar( ${1:\\$params} )" },
 		{"trigger": "next_widget_id_number", "contents": "next_widget_id_number( ${1:\\$id_base} )" },
 		{"trigger": "wp_widget_control", "contents": "wp_widget_control( ${1:\\$sidebar_args} )" },
-		{"trigger": "wp_widgets_access_body_class", "contents": "wp_widgets_access_body_class( ${1:\\$classes} )" },
+		{"trigger": "wp_widgets_access_body_class", "contents": "wp_widgets_access_body_class( ${1:\\$classes} )" }
 	]
 }

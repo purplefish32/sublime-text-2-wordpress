@@ -3712,6 +3712,6 @@
 		{"trigger": "{$type}_template", "contents": "${1:\\$type}_template" },
 		{"trigger": "af_{$type}_template", "contents": "add_filter( '${1:\\$type}_template', ${3:'${2:callback}'}${4} );" },
 		{"trigger": "{$type}_template_hierarchy", "contents": "${1:\\$type}_template_hierarchy" },
-		{"trigger": "af_{$type}_template_hierarchy", "contents": "add_filter( '${1:\\$type}_template_hierarchy', ${3:'${2:callback}'}${4} );" },
+		{"trigger": "af_{$type}_template_hierarchy", "contents": "add_filter( '${1:\\$type}_template_hierarchy', ${3:'${2:callback}'}${4} );" }
 	]
 }
