@@ -10,8 +10,8 @@ Autocomplete for:
     WP version : 4.8.1
 
     Functions          : 2909
-    Hooks              : 1434
-    Constants/Classes  :  191
+    Hooks              : 1855
+    Constants/Classes  :  866
 
 ### Notes
 
