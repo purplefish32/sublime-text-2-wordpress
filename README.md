@@ -43,5 +43,5 @@ Sublime won't autocomplete PHP files when there is no closing `?>` tags , so in 
 
 ###  Install instructions
 
-Just install via package control (WordPress) or clone into your sublime-text-2 package directory.
+Just install via package control (WordPress) or clone into your sublime-text-3 package directory.
 
