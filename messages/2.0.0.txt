@@ -1,0 +1,11 @@
+Thank you for using the WordPress package for Sublime Text.
+
+Thanks to new contributors (Hello @jtsternberg), this package has been updated to include the functions, hooks, constants and classes for WordPress 4.8.1, and is fully compatible with Sublime Text 3.
+
+There is also an additional hooks autocomplete mode that will allow you to autocomplete the entire hook line. In order to trigger, you will begin by typing `aa_<action_name>` or `af_<filter_name>`.
+
+For example, `aa_init` would autocomplete to: `add_action( 'init', ${2:'${1:callback}'}${3} );` where you have the option to tab-complete to add your callback.
+
+Similarly, `af_the_content` would autocomplete to: `add_filter( 'the_content', ${2:'${1:callback}'}${3} );`.
+
+We hope you enjoy the update.
