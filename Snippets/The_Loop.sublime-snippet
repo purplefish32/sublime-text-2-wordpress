@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<?${TM_PHP_OPEN_TAG:php} if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-${1:<!-- post -->}
+${1:<?${TM_PHP_OPEN_TAG:php} }if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+${2:<!-- post -->}
 <?${TM_PHP_OPEN_TAG:php} endwhile; ?>
-${2:<!-- post navigation -->}
+${3:<!-- post navigation -->}
 <?${TM_PHP_OPEN_TAG:php} else: ?>
 ${0:<!-- no posts found -->}
 <?${TM_PHP_OPEN_TAG:php} endif; ?>
