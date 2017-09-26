@@ -14,20 +14,20 @@
 function ${1:my_taxonomies_name}() {
 
 	${2:${3:\$labels} = array(
-		'name'					=> _x( '${4:Plural Name}', 'Taxonomy plural name', '${6:text-domain}' ),
-		'singular_name'			=> _x( '${5:Singular Name}', 'Taxonomy singular name', '${7:text-domain}' ),
-		'search_items'			=> __( 'Search ${4:Plural Name}', '${6:text-domain}' ),
-		'popular_items'			=> __( 'Popular ${4:Plural Name}', '${6:text-domain}' ),
-		'all_items'				=> __( 'All ${4:Plural Name}', '${6:text-domain}' ),
-		'parent_item'			=> __( 'Parent ${5:Singular Name}', '${7:text-domain}' ),
-		'parent_item_colon'		=> __( 'Parent ${5:Singular Name}', '${7:text-domain}' ),
-		'edit_item'				=> __( 'Edit ${5:Singular Name}', '${7:text-domain}' ),
-		'update_item'			=> __( 'Update ${5:Singular Name}', '${7:text-domain}' ),
-		'add_new_item'			=> __( 'Add New ${5:Singular Name}', '${7:text-domain}' ),
-		'new_item_name'			=> __( 'New ${5:Singular Name} Name', '${7:text-domain}' ),
-		'add_or_remove_items'	=> __( 'Add or remove ${4:Plural Name}', '${6:text-domain}' ),
-		'choose_from_most_used'	=> __( 'Choose from most used ${7:Plural Name}', '${6:text-domain}' ),
-		'menu_name'				=> __( '${5:Singular Name}', '${7:text-domain}' ),
+		'name'                  => _x( '${4:Plural Name}', 'Taxonomy plural name', '${6:text-domain}' ),
+		'singular_name'         => _x( '${5:Singular Name}', 'Taxonomy singular name', '${6:text-domain}' ),
+		'search_items'          => __( 'Search ${4:Plural Name}', '${6:text-domain}' ),
+		'popular_items'         => __( 'Popular ${4:Plural Name}', '${6:text-domain}' ),
+		'all_items'             => __( 'All ${4:Plural Name}', '${6:text-domain}' ),
+		'parent_item'           => __( 'Parent ${5:Singular Name}', '${6:text-domain}' ),
+		'parent_item_colon'     => __( 'Parent ${5:Singular Name}', '${6:text-domain}' ),
+		'edit_item'             => __( 'Edit ${5:Singular Name}', '${6:text-domain}' ),
+		'update_item'           => __( 'Update ${5:Singular Name}', '${6:text-domain}' ),
+		'add_new_item'          => __( 'Add New ${5:Singular Name}', '${6:text-domain}' ),
+		'new_item_name'         => __( 'New ${5:Singular Name} Name', '${6:text-domain}' ),
+		'add_or_remove_items'   => __( 'Add or remove ${4:Plural Name}', '${6:text-domain}' ),
+		'choose_from_most_used' => __( 'Choose from most used ${4:Plural Name}', '${6:text-domain}' ),
+		'menu_name'             => __( '${5:Singular Name}', '${6:text-domain}' ),
 	);}
 
 	${8:${9:\$args} = array(

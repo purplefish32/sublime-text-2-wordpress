@@ -15,7 +15,7 @@ add_action( '${1:event_action}', '${2:event_function}' );
  * @return void
  */
 function $2() {
-${0:// do neat stuff here}
+	${0:// do neat stuff here}
 }
 
 /**

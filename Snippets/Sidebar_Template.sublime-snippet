@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<?php // Dynamic Sidebar
+// Dynamic Sidebar
 if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( '${1:Sidebar Name}' ) ) : ?>
 
 	${0:<!-- Sidebar fallback content -->}

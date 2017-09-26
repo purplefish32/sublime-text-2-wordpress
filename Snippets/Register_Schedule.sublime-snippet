@@ -10,11 +10,12 @@
  * @return array
  */
 function ${1:register_my_schedule}( \$schedules ) {
-// remember, we're adding to the array, not replacing it
+	// We're adding to the schedules array (not replacing it).
 	\$schedules['${2:string quarter_hour}'] = array(
-	'interval'	=> ${3:900},
-	'display'	=> _( '${4:Every 15 Minutes}' )
+		'interval' => ${3:900},
+		'display'  => __( '${4:Every 15 Minutes}', '${5:text-domain}' ),
 	);$0
+
 	return \$schedules;
 }
 add_filter( 'cron_schedules', '$1' );
