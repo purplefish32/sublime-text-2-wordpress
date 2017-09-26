@@ -1,13 +1,25 @@
 <snippet>
 	<content><![CDATA[
-function ${2:func_name}( \$atts ) {
+/**
+ * ${3:Returns the parsed shortcode.}
+ *
+ * @param array  $attr {${4:
+ *     Attributes of the shortcode.
+ *
+ *     @type ${5:string} \$${6:id} ${7:ID of...}
+ * }}
+ * @param string $content Shortcode content.
+ *
+ * @return string HTML content to display the shortcode.
+ */
+function ${2:shortcode_callback_func}( \$atts = array(), \$content = '' ) {
 	\$atts = shortcode_atts( array(
-		'default' => 'values'
-	), \$atts );
+		'${6:id}' => 'value',
+	), \$atts, '${1:shortcode-id}' );
 
-	// do shortcode actions here
+	${8:// do shortcode actions here}
 }
-add_shortcode( '${1:shortcode-id}','${2:func_name}' );
+add_shortcode( '${1:shortcode-id}', '${2:shortcode_callback_func}' );
 ]]></content>
 	<description>Shortcode</description>
 	<tabTrigger>shortcode</tabTrigger>
