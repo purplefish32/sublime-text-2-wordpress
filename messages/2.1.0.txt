@@ -1,0 +1,3 @@
+Thank you for using the WordPress package for Sublime Text.
+
+This latest updates removes some redundant or incorrect functions that were parsed.
